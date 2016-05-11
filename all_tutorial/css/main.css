@@ -1,0 +1,48 @@
+body {
+  background-color: #eaedf2;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.1;
+    font-weight: 600;
+    font-size: 36pt;
+    color: #4c498b;
+}
+.content {
+    padding: 0 20px;
+	  position: relative;
+	  top: 120px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.container {
+    text-align: center;
+}
+.header_pause {
+  position: fixed;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    text-transform: uppercase;
+    font-family: 'Roboto bold', sans-serif;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #4c498b;
+    font-size: 36pt;
+}
+svg.down_arrow{
+    margin-top: 20px;
+}
+.money {
+    margin-top: 70px;
+}
