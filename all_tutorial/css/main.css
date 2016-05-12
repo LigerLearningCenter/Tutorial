@@ -10,8 +10,8 @@ body {
 }
 .content {
     padding: 0 20px;
-	  position: relative;
-	  top: 120px;
+      position: relative;
+      top: 120px;
 }
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 20px;
@@ -46,3 +46,63 @@ svg.down_arrow{
 .money {
     margin-top: 70px;
 }
+
+/*3th page code*/
+.moneyBars{
+    width: 24%;
+    height: 10%;
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: fixed;
+    top: 4%;
+    left: 0%;
+}
+
+body {
+    background-color: #EAEDF2;
+}
+
+.moneyBars > p {
+    position: absolute;
+    right: 19px;
+    top: -35px;
+    font-family: "Roboto";
+    font-size: 32pt;
+    color: #4C478C;
+    font-weight: bold;
+}
+
+#tutorialOfPage3{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    font-size: 36pt;
+    font-family: "Roboto";
+    color: #4C478C;
+    font-weight: bold;
+}
+
+#pausingIcon{
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    top: 15x;
+    right: 15px;
+}
+#dollarIcon{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -10px;
+    left: 2px; 
+}
+
+ #savingMoney{
+    width: 55px;
+    height: 45px;
+    position: absolute;
+    top: 63%;
+    left: 45%;
+ }
+ /**/
