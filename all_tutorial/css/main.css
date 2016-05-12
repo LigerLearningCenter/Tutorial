@@ -47,15 +47,15 @@ svg.down_arrow{
     margin-top: 70px;
 }
 
-/*3th page code*/
+/*3rd page code*/
 .moneyBars{
     width: 24%;
     height: 10%;
     background-color: white;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
     position: fixed;
-    top: 4%;
+    top: 9.5%;
     left: 0%;
 }
 
@@ -87,8 +87,8 @@ body {
     width: 60px;
     height: 50px;
     position: absolute;
-    top: 15x;
-    right: 15px;
+    top: 7.5%;
+    right: 2%;
 }
 #dollarIcon{
     width: 60px;
@@ -105,4 +105,57 @@ body {
     top: 63%;
     left: 45%;
  }
- /**/
+ /*6th Page Code*/
+#topBarsDateCollection{
+    width: 100%;
+    height: 5.9999%;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+ }
+
+#dateCollection{
+    width: 13%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 11%;
+}
+
+#leftArrow{
+    width: 0;
+    height: 0;
+    border-top: 19.9px solid transparent;
+    border-bottom: 19.9px solid transparent;
+    border-right: 19.9px solid white; 
+    position: absolute;
+    top: 0px;
+    left: 9.599%;
+}
+
+#rightArrow{
+    width: 0;
+    height: 0;
+    border-top: 19.9px solid transparent;
+    border-bottom: 19.9px solid transparent;
+
+    border-left: 19.9px solid white; 
+    position: absolute;
+    top: 0px;
+    left: 24.012345%;
+}
+
+#dashBorder{
+    width: 100%;
+    border: green;
+    border-style: dashed;
+}
+#timeZone{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 18pt;
+    top: -21px;
+    left: 12px;
+}
