@@ -3,10 +3,7 @@ body{
 	color: #4c498b;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-
-
 }
-
 #money{
 	position: absolute;
 	left: -30px;
@@ -39,7 +36,7 @@ top: -30%;
 left: 15px;
 vertical-align: middle;
 text-align: center;
-text-indent: 40px; 
+text-indent: 40px;
 text-align: justify;
 
 }
@@ -55,7 +52,7 @@ font-weight: bold;
 
 
 }
-div.menubar{	
+div.menubar{
 font-size: 14px;
 position: relative;
 top: 105px;
@@ -79,26 +76,26 @@ div#gradient1{
 background:linear-gradient(90deg,gray,white);
 }
 div#gradient2{
-background:linear-gradient(90deg,#E9DC68,white);	
+background:linear-gradient(90deg,#E9DC68,white);
 }
 div#gradient3{
-background:linear-gradient(90deg,#E55C4C,white);	
+background:linear-gradient(90deg,#E55C4C,white);
 position: absolute;
 top: 65px;
 }
 div#gradient4{
-background:linear-gradient(90deg,#A85EB6,white);	
+background:linear-gradient(90deg,#A85EB6,white);
 }
 div#gradient5{
-background:linear-gradient(90deg,#634A81,white);	
+background:linear-gradient(90deg,#634A81,white);
 }
 div#gradient6{
-background:linear-gradient(90deg,#3196DE,white);	
+background:linear-gradient(90deg,#3196DE,white);
 }
 div#gradient7{
-background:linear-gradient(90deg,#50EFBB,white);	
+background:linear-gradient(90deg,#50EFBB,white);
 }
-h1{	
+h1{
 position: absolute;
 left: 33%;
 top: 220px;
@@ -131,7 +128,7 @@ left: 270px;
 #arrow3{
 position: absolute;
 top: 580px;
-right:50px; 
+right:50px;
 }
 #arrow4{
 position: absolute;
@@ -146,7 +143,7 @@ right: 270px;
 }
 #pause{
 width: 4%;
-height: 8%; 
+height: 8%;
 position: absolute;
 top: 20px;
 right: 10px;

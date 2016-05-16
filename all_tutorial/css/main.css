@@ -1,5 +1,6 @@
 body {
-  background-color: #eaedf2;
+    background-color: #eaedf2;
+    cursor: url('pointer.png'), auto;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
@@ -10,8 +11,8 @@ body {
 }
 .content {
     padding: 0 20px;
-      position: relative;
-      top: 120px;
+    position: relative;
+    top: 120px;
 }
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 20px;
@@ -21,18 +22,18 @@ body {
     text-align: center;
 }
 .header_pause {
-  position: fixed;
-  position: absolute;
-  top: 25px;
-  right: 20px;
+    position: fixed;
+    position: absolute;
+    top: 25px;
+    right: 20px;
 }
 button {
     background-color: Transparent;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     border: none;
-    cursor:pointer;
+    cursor: pointer;
     overflow: hidden;
-    outline:none;
+    outline: none;
     text-transform: uppercase;
     font-family: 'Roboto bold', sans-serif;
     line-height: 1.1;
@@ -40,7 +41,7 @@ button {
     color: #4c498b;
     font-size: 36pt;
 }
-svg.down_arrow{
+svg.down_arrow {
     margin-top: 20px;
 }
 .money {
@@ -48,7 +49,8 @@ svg.down_arrow{
 }
 
 /*3rd page code*/
-.moneyBars{
+
+.moneyBars {
     width: 24%;
     height: 10%;
     background-color: white;
@@ -58,11 +60,9 @@ svg.down_arrow{
     top: 9.5%;
     left: 0%;
 }
-
 body {
     background-color: #EAEDF2;
 }
-
 .moneyBars > p {
     position: absolute;
     right: 19px;
@@ -72,8 +72,7 @@ body {
     color: #4C478C;
     font-weight: bold;
 }
-
-#tutorialOfPage3{
+#tutorialOfPage3 {
     position: absolute;
     top: 35%;
     left: 37%;
@@ -82,40 +81,39 @@ body {
     color: #4C478C;
     font-weight: bold;
 }
-
-#pausingIcon{
+#pausingIcon {
     width: 60px;
     height: 50px;
     position: absolute;
     top: 7.5%;
     right: 2%;
 }
-#dollarIcon{
+#dollarIcon {
     width: 60px;
     height: 60px;
     position: absolute;
     top: -10px;
-    left: 2px; 
+    left: 2px;
 }
-
- #savingMoney{
+#savingMoney {
     width: 55px;
     height: 45px;
     position: absolute;
     top: 63%;
     left: 45%;
- }
- /*6th Page Code*/
-#topBarsDateCollection{
+}
+
+/*6th Page Code*/
+
+#topBarsDateCollection {
     width: 100%;
     height: 5.9999%;
     background-color: blue;
     position: absolute;
     top: 0px;
     left: 0px;
- }
-
-#dateCollection{
+}
+#dateCollection {
     width: 13%;
     height: 100%;
     background-color: white;
@@ -123,36 +121,32 @@ body {
     top: 0px;
     left: 11%;
 }
-
-#leftArrow{
+#leftArrow {
     width: 0;
     height: 0;
     border-top: 19.9px solid transparent;
     border-bottom: 19.9px solid transparent;
-    border-right: 19.9px solid white; 
+    border-right: 19.9px solid white;
     position: absolute;
     top: 0px;
     left: 9.599%;
 }
-
-#rightArrow{
+#rightArrow {
     width: 0;
     height: 0;
     border-top: 19.9px solid transparent;
     border-bottom: 19.9px solid transparent;
-
-    border-left: 19.9px solid white; 
+    border-left: 19.9px solid white;
     position: absolute;
     top: 0px;
     left: 24.012345%;
 }
-
-#dashBorder{
+#dashBorder {
     width: 100%;
     border: green;
     border-style: dashed;
 }
-#timeZone{
+#timeZone {
     position: absolute;
     font-family: 'Roboto';
     font-size: 18pt;
