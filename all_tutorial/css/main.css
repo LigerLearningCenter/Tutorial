@@ -84,10 +84,10 @@ body {
 }
 
 #pausingIcon{
-    width: 60px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     position: absolute;
-    top: 7.5%;
+    top: 8.8%;
     right: 2%;
 }
 #dollarIcon{
@@ -152,10 +152,51 @@ body {
     border: green;
     border-style: dashed;
 }
+
 #timeZone{
     position: absolute;
     font-family: 'Roboto';
     font-size: 18pt;
     top: -21px;
     left: 12px;
+}
+
+#socailmoodHappy1{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9.5%;
+    right: 38%;
+}
+
+#socailmoodHappy2{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9.5%;
+    right: 33%;
+}
+
+#socailmoodHappy3{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9.5%;
+    right: 28%;
+}
+
+#socailmoodHappy4{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9.5%;
+    right: 23%;
+}
+
+#socailmoodSad1{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9.5%;
+    right: 18%;
 }
