@@ -81,11 +81,18 @@ body {
     color: #4C478C;
     font-weight: bold;
 }
+<<<<<<< HEAD
 #pausingIcon {
     width: 60px;
     height: 50px;
+=======
+
+#pausingIcon{
+    width: 65px;
+    height: 65px;
+>>>>>>> b2fb3e84ebb16d52e8d690ff5a5b0f4806fedd03
     position: absolute;
-    top: 7.5%;
+    top: 8.8%;
     right: 2%;
 }
 #dollarIcon {
@@ -146,10 +153,58 @@ body {
     border: green;
     border-style: dashed;
 }
+<<<<<<< HEAD
 #timeZone {
+=======
+
+#timeZone{
+>>>>>>> b2fb3e84ebb16d52e8d690ff5a5b0f4806fedd03
     position: absolute;
     font-family: 'Roboto';
     font-size: 18pt;
     top: -21px;
     left: 12px;
 }
+<<<<<<< HEAD
+=======
+
+#socailmoodHappy1{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9.5%;
+    right: 38%;
+}
+
+#socailmoodHappy2{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9.5%;
+    right: 33%;
+}
+
+#socailmoodHappy3{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9.5%;
+    right: 28%;
+}
+
+#socailmoodHappy4{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9.5%;
+    right: 23%;
+}
+
+#socailmoodSad1{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9.5%;
+    right: 18%;
+}
+>>>>>>> b2fb3e84ebb16d52e8d690ff5a5b0f4806fedd03
