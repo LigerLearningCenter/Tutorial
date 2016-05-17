@@ -1,20 +1,13 @@
-<<<<<<< HEAD
 /*Overal Code*/
 body{
     background-color: #eaedf2;
     color: #4c498b;
-    font-family:'roboto'; 
-=======
-body {
-    background-color: #eaedf2;
-    cursor: url('pointer.png'), auto;
->>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
 }
 
-#money{
+.money {
     position: absolute;
     left: -30px;
-    top: 35px;
+    top: -25px;
     border-radius: 30px;
     background: white;
     padding-left:60px;
@@ -22,7 +15,9 @@ body {
     padding-top:10px;
     padding-bottom:10px;
     font-size: 32pt;
+    font-family:'roboto'; 
 }
+
 #pause {
     width: 65px;
     height: 65px;
@@ -40,7 +35,7 @@ body {
   transform: rotate(180deg);
 }
 
-#heading{ 
+#heading { 
 position: absolute;
 left: 33%;
 top: 250px;
@@ -104,8 +99,6 @@ svg.down_arrow {
 }
 
 /*3rd page code*/
-<<<<<<< HEAD
-=======
 
 .moneyBars {
     width: 24%;
@@ -120,15 +113,6 @@ svg.down_arrow {
 body {
     background-color: #EAEDF2;
 }
-.moneyBars > p {
-    position: absolute;
-    right: 19px;
-    top: -35px;
-    font-family: "Roboto";
-    font-size: 32pt;
-    color: #4C478C;
-    font-weight: bold;
-}
 #tutorialOfPage3 {
     position: absolute;
     top: 35%;
@@ -137,21 +121,6 @@ body {
     font-family: "Roboto";
     color: #4C478C;
     font-weight: bold;
-}
-<<<<<<< HEAD
-#pausingIcon {
-    width: 60px;
-    height: 50px;
-=======
->>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
-
-#pausingIcon{
-    width: 65px;
-    height: 65px;
->>>>>>> b2fb3e84ebb16d52e8d690ff5a5b0f4806fedd03
-    position: absolute;
-    top: 8.8%;
-    right: 2%;
 }
 #dollarIcon {
     width: 60px;
