@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 /*Overal Code*/
 body{
     background-color: #eaedf2;
     color: #4c498b;
     font-family:'roboto'; 
+=======
+body {
+    background-color: #eaedf2;
+    cursor: url('pointer.png'), auto;
+>>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
 }
 
 #money{
@@ -60,8 +66,8 @@ font-size: 36pt;
 }
 .content {
     padding: 0 20px;
-      position: relative;
-      top: 120px;
+    position: relative;
+    top: 120px;
 }
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 20px;
@@ -71,18 +77,18 @@ font-size: 36pt;
     text-align: center;
 }
 .header_pause {
-  position: fixed;
-  position: absolute;
-  top: 25px;
-  right: 20px;
+    position: fixed;
+    position: absolute;
+    top: 25px;
+    right: 20px;
 }
 button {
     background-color: Transparent;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     border: none;
-    cursor:pointer;
+    cursor: pointer;
     overflow: hidden;
-    outline:none;
+    outline: none;
     text-transform: uppercase;
     font-family: 'Roboto bold', sans-serif;
     line-height: 1.1;
@@ -90,7 +96,7 @@ button {
     color: #4c498b;
     font-size: 36pt;
 }
-svg.down_arrow{
+svg.down_arrow {
     margin-top: 20px;
 }
 .money {
@@ -98,40 +104,81 @@ svg.down_arrow{
 }
 
 /*3rd page code*/
+<<<<<<< HEAD
+=======
+
+.moneyBars {
+    width: 24%;
+    height: 10%;
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: fixed;
+    top: 9.5%;
+    left: 0%;
+}
+body {
+    background-color: #EAEDF2;
+}
+.moneyBars > p {
+    position: absolute;
+    right: 19px;
+    top: -35px;
+    font-family: "Roboto";
+    font-size: 32pt;
+    color: #4C478C;
+    font-weight: bold;
+}
+#tutorialOfPage3 {
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    font-size: 36pt;
+    font-family: "Roboto";
+    color: #4C478C;
+    font-weight: bold;
+}
+<<<<<<< HEAD
+#pausingIcon {
+    width: 60px;
+    height: 50px;
+=======
+>>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
 
 #pausingIcon{
     width: 65px;
     height: 65px;
+>>>>>>> b2fb3e84ebb16d52e8d690ff5a5b0f4806fedd03
     position: absolute;
     top: 8.8%;
     right: 2%;
 }
-#dollarIcon{
+#dollarIcon {
     width: 60px;
     height: 60px;
     position: absolute;
     top: -10px;
-    left: 2px; 
+    left: 2px;
 }
-
- #savingMoney{
+#savingMoney {
     width: 55px;
     height: 45px;
     position: absolute;
     top: 63%;
     left: 45%;
- }
- /*6th Page Code*/
-#topBarsDateCollection{
+}
+
+/*6th Page Code*/
+
+#topBarsDateCollection {
     width: 100%;
     height: 5.9999%;
     background-color: blue;
     position: absolute;
     top: 0px;
     left: 0px;
- }
-
-#dateCollection{
+}
+#dateCollection {
     width: 13%;
     height: 100%;
     background-color: white;
@@ -139,31 +186,34 @@ svg.down_arrow{
     top: 0px;
     left: 11%;
 }
-
-#leftArrow{
+#leftArrow {
     width: 0;
     height: 0;
     border-top: 19.9px solid transparent;
     border-bottom: 19.9px solid transparent;
-    border-right: 19.9px solid white; 
+    border-right: 19.9px solid white;
     position: absolute;
     top: 0px;
     left: 9.599%;
 }
-
-#rightArrow{
+#rightArrow {
     width: 0;
     height: 0;
     border-top: 19.9px solid transparent;
     border-bottom: 19.9px solid transparent;
-
-    border-left: 19.9px solid white; 
+    border-left: 19.9px solid white;
     position: absolute;
     top: 0px;
     left: 24.012345%;
 }
+<<<<<<< HEAD
 
 #dashBorder{
+=======
+#dashBorder {
+    width: 100%;
+    border: green;
+>>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
     border-style: dashed;
     border-width: 1px;
     border-color: white;
@@ -171,14 +221,20 @@ svg.down_arrow{
     top: 48%;
     left: 0%;
 }
+<<<<<<< HEAD
+#timeZone {
+=======
 
 #timeZone{
+>>>>>>> b2fb3e84ebb16d52e8d690ff5a5b0f4806fedd03
     position: absolute;
     font-family: 'Roboto';
     font-size: 18pt;
     top: -21px;
     left: 12px;
 }
+<<<<<<< HEAD
+=======
 
 #socailmoodHappy1{
     width: 60px;
@@ -219,6 +275,7 @@ svg.down_arrow{
     top: 9.5%;
     right: 18%;
 }
+<<<<<<< HEAD
 
 #commentOnPage6{
     position: absolute;
@@ -229,3 +286,6 @@ svg.down_arrow{
     color: #4C478C;
     font-weight: bold;
 }
+=======
+>>>>>>> b2fb3e84ebb16d52e8d690ff5a5b0f4806fedd03
+>>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8

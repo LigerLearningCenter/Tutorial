@@ -1,9 +1,13 @@
 body{
 	background-color: #eaedf2;
 	color: #4c498b;
+<<<<<<< HEAD
 	font-family:'roboto'; 
+=======
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+>>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
 }
-
 #money{
 	position: absolute;
 	left: -30px;
@@ -36,7 +40,11 @@ top: -47%;
 left: 15px;
 vertical-align: middle;
 text-align: center;
+<<<<<<< HEAD
 text-indent: 32px; 
+=======
+text-indent: 40px;
+>>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
 text-align: justify;
 
 }
@@ -50,8 +58,13 @@ font-size: 16pt;
 font-family: 'roboto';
 
 }
+<<<<<<< HEAD
 div.menubar{	
 font-size: 16pt;	
+=======
+div.menubar{
+font-size: 14px;
+>>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
 position: relative;
 left: -8px;
 top: 135px;
@@ -74,26 +87,30 @@ div#gradient1{
 background:linear-gradient(90deg,gray,white);
 }
 div#gradient2{
-background:linear-gradient(90deg,#E9DC68,white);	
+background:linear-gradient(90deg,#E9DC68,white);
 }
 div#gradient3{
-background:linear-gradient(90deg,#E55C4C,white);	
+background:linear-gradient(90deg,#E55C4C,white);
 position: absolute;
 top: 70.5px;
 }
 div#gradient4{
-background:linear-gradient(90deg,#A85EB6,white);	
+background:linear-gradient(90deg,#A85EB6,white);
 }
 div#gradient5{
-background:linear-gradient(90deg,#634A81,white);	
+background:linear-gradient(90deg,#634A81,white);
 }
 div#gradient6{
-background:linear-gradient(90deg,#3196DE,white);	
+background:linear-gradient(90deg,#3196DE,white);
 }
 div#gradient7{
-background:linear-gradient(90deg,#50EFBB,white);	
+background:linear-gradient(90deg,#50EFBB,white);
 }
+<<<<<<< HEAD
 div.extra{
+=======
+h1{
+>>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
 position: absolute;
 left: 85.1%;
 top: 143px;
@@ -125,7 +142,7 @@ left: 270px;
 #arrow3{
 position: absolute;
 top: 580px;
-right:50px; 
+right:50px;
 }
 #arrow4{
 position: absolute;
@@ -140,7 +157,7 @@ right: 270px;
 }
 #pause{
 width: 4%;
-height: 8%; 
+height: 8%;
 position: absolute;
 top: 20px;
 right: 10px;
