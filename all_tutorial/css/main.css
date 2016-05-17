@@ -1,10 +1,60 @@
-body {
-  background-color: #eaedf2;
+/*Overal Code*/
+body{
+    background-color: #eaedf2;
+    color: #4c498b;
+    font-family:'roboto'; 
 }
+
+#money{
+    position: absolute;
+    left: -30px;
+    top: 35px;
+    border-radius: 30px;
+    background: white;
+    padding-left:60px;
+    padding-right: 40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 32pt;
+}
+#pause {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 8.8%;
+    right: 2%;
+}
+
+#pointer {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  left: 575px;
+  bottom: 300px;
+  transform: rotate(180deg);
+}
+
+#heading{ 
+position: absolute;
+left: 33%;
+top: 250px;
+font-size: 36pt;
+}
+
+/*Nothing*/
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.1;
-    font-weight: 600;
+#money{
+    position: absolute;
+    left: -30px;
+    top: 35px;
+    border-radius: 30px;
+    background: 5hite;
+    padding-left:60px;
+    padding-right: 40px;
+    padding-top:10px;
+    padding-bottom:10px;
+}    font-weight: 600;
     font-size: 36pt;
     color: #4c498b;
 }
@@ -48,40 +98,6 @@ svg.down_arrow{
 }
 
 /*3rd page code*/
-.moneyBars{
-    width: 24%;
-    height: 10%;
-    background-color: white;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-    position: fixed;
-    top: 9.5%;
-    left: 0%;
-}
-
-body {
-    background-color: #EAEDF2;
-}
-
-.moneyBars > p {
-    position: absolute;
-    right: 19px;
-    top: -35px;
-    font-family: "Roboto";
-    font-size: 32pt;
-    color: #4C478C;
-    font-weight: bold;
-}
-
-#tutorialOfPage3{
-    position: absolute;
-    top: 35%;
-    left: 37%;
-    font-size: 36pt;
-    font-family: "Roboto";
-    color: #4C478C;
-    font-weight: bold;
-}
 
 #pausingIcon{
     width: 65px;
@@ -148,9 +164,12 @@ body {
 }
 
 #dashBorder{
-    width: 100%;
-    border: green;
     border-style: dashed;
+    border-width: 1px;
+    border-color: white;
+    position: relative;
+    top: 48%;
+    left: 0%;
 }
 
 #timeZone{
@@ -199,4 +218,14 @@ body {
     position: absolute;
     top: 9.5%;
     right: 18%;
+}
+
+#commentOnPage6{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-size: 36px;
+    font-family: "Roboto";
+    color: #4C478C;
+    font-weight: bold;
 }

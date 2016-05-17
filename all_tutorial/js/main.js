@@ -1,4 +1,4 @@
-//3th Page code 
+//3rd Page code 
 	//Changing the point number 
 function convertToK(){
 	var moneyReal = document.getElementById("moneyInTheBank").innerHTML;
@@ -15,3 +15,13 @@ function convertToK(){
 	}
 }
 window.onload = convertToK;
+
+//6th Page code
+	//Get ting time 
+var time = new Date();
+var date = time.getDate();
+var month = time.getMonth();
+var year = time.getFullYear();
+
+var view = document.getElementById("timeZone").innerHTML = date + "." + month + "." + year;
+window.onload = convertToview;
