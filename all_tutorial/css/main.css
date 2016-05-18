@@ -41,7 +41,7 @@ img#pointer-up {
     overflow: auto;
     margin: auto;
     position: absolute;
-    top: 500px;
+    top: 400px;
     left: 0;
     bottom: 0;
     right: 0;
@@ -50,7 +50,7 @@ img#pointer-up {
 #heading { 
     position: absolute;
     left: 33%;
-    top: 250px;
+    top: 35%;
     font-size: 36pt;
 }
 
