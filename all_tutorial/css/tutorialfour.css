@@ -1,23 +1,19 @@
 body{
 	background-color: #eaedf2;
 	color: #4c498b;
-<<<<<<< HEAD
 	font-family:'roboto'; 
-=======
-	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
->>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
 }
+
 #money{
-	position: absolute;
-	left: -30px;
-	top: 35px;
-	border-radius: 30px;
-	background: white;
-	padding-left:60px;
-	padding-right: 40px;
-	padding-top:10px;
-	padding-bottom:10px;
+position: absolute;
+left: -30px;
+top: 18px;
+border-radius: 50px;
+background: white;
+padding-left:60px;
+padding-right: 40px;
+padding-top:10px;
+padding-bottom:10px;
 }
 header{
 margin: 100px auto;
@@ -34,52 +30,50 @@ top: 14px;
 left: 3px;
 
 }
-p{
+.label{
+font-size: 13pt; 
 position: relative;
-top: -47%;
-left: 15px;
-vertical-align: middle;
-text-align: center;
-<<<<<<< HEAD
-text-indent: 32px; 
-=======
-text-indent: 40px;
->>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
-text-align: justify;
+top: -42%;
+margin-left:60px;
 
+/*For the label font I change it to 13 pt 
+because 16 pt is really big*/
+
+/*vertical-align: middle;
+text-align: center;
+text-indent: 32px; 
+*/
+
+}
+.label1{
+text-indent: -18px;
 }
 pre#test{
 position: relative;
-top: -60%;
-left: 15px;
+top: -55%;
+margin-left: 15px;
 text-indent: 40px;
 tab-size: 1;
-font-size: 16pt;
+font-size: 13pt;
 font-family: 'roboto';
 
 }
-<<<<<<< HEAD
-div.menubar{	
-font-size: 16pt;	
-=======
-div.menubar{
-font-size: 14px;
->>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
+div.menubar{		
 position: relative;
-left: -8px;
 top: 135px;
-margin: .7px;
 background-color: white;
+margin:.7px;
 float: left;
 height: 85px;
-width: 14.25%;
+width: Calc(100%/7.051);
 display: inline;
 
 }
 div.gradient{
 display: block;
 position: relative;
-top:-44px;
+left: -1px;
+top:-31px;
 width: 190.5px;
 height: 15px;
 }
@@ -87,33 +81,32 @@ div#gradient1{
 background:linear-gradient(90deg,gray,white);
 }
 div#gradient2{
-background:linear-gradient(90deg,#E9DC68,white);
+background:linear-gradient(90deg,#E9DC68,white);	
 }
 div#gradient3{
-background:linear-gradient(90deg,#E55C4C,white);
+background:linear-gradient(90deg,#E55C4C,white);	
 position: absolute;
 top: 70.5px;
 }
 div#gradient4{
-background:linear-gradient(90deg,#A85EB6,white);
+background:linear-gradient(90deg,#A85EB6,white);	
 }
+
 div#gradient5{
-background:linear-gradient(90deg,#634A81,white);
+background:linear-gradient(90deg,#634A81,white);	
 }
 div#gradient6{
-background:linear-gradient(90deg,#3196DE,white);
+background:linear-gradient(90deg,#3196DE,white);	
 }
 div#gradient7{
-background:linear-gradient(90deg,#50EFBB,white);
+background:linear-gradient(90deg,#50EFBB,white);	
 }
-<<<<<<< HEAD
-div.extra{
-=======
-h1{
->>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
+
+h1{	
 position: absolute;
-left: 85.1%;
-top: 143px;
+left: 28%;
+top: 250px;
+font-size: 36pt;
 
 }
 
@@ -142,7 +135,7 @@ left: 270px;
 #arrow3{
 position: absolute;
 top: 580px;
-right:50px;
+right:50px; 
 }
 #arrow4{
 position: absolute;
@@ -157,7 +150,7 @@ right: 270px;
 }
 #pause{
 width: 4%;
-height: 8%;
+height: 8%; 
 position: absolute;
 top: 20px;
 right: 10px;
