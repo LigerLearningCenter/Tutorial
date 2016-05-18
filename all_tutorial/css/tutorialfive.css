@@ -3,6 +3,113 @@ body{
     color: #4c498b;
     font-family:'roboto'; 
 }
+<<<<<<< HEAD
+=======
+
+#money{
+position: absolute;
+left: -30px;
+top: 18px;
+border-radius: 50px;
+background: white;
+padding-left:60px;
+padding-right: 40px;
+padding-top:10px;
+padding-bottom:10px;
+}
+header{
+margin: 100px auto;
+width: 14.25%;
+height: 80px;
+display: inline;
+}
+.icon{
+width: 23%;
+height: 55%;
+vertical-align: middle;
+position: relative;
+top: 14px;
+left: 3px;
+
+}
+.label{
+font-size: 13pt; 
+position: relative;
+top: -42%;
+margin-left:60px;
+
+/*For the label font I change it to 13 pt 
+because 16 pt is really big*/
+
+/*vertical-align: middle;
+text-align: center;
+text-indent: 32px; 
+*/
+
+}
+.label1{
+text-indent: -18px;
+}
+pre#test{
+position: relative;
+top: -55%;
+margin-left: 15px;
+text-indent: 40px;
+tab-size: 1;
+font-size: 13pt;
+font-family: 'roboto';
+
+}
+div.menubar{        
+position: relative;
+top: 135px;
+background-color: white;
+margin:.7px;
+float: left;
+height: 85px;
+width: Calc(100%/7.051);
+display: inline;
+
+}
+div.gradient{
+display: block;
+position: relative;
+left: -1px;
+top:-31px;
+width: 190.5px;
+height: 15px;
+}
+div#gradient1{
+background:linear-gradient(90deg,gray,white);
+}
+div#gradient2{
+background:linear-gradient(90deg,#E9DC68,white);    
+}
+div#gradient3{
+background:linear-gradient(90deg,#E55C4C,white);    
+position: absolute;
+top: 70.5px;
+}
+div#gradient4{
+background:linear-gradient(90deg,#A85EB6,white);    
+}
+
+div#gradient5{
+background:linear-gradient(90deg,#634A81,white);    
+}
+div#gradient6{
+background:linear-gradient(90deg,#3196DE,white);    
+}
+div#gradient7{
+background:linear-gradient(90deg,#50EFBB,white);    
+}
+
+h1{ 
+position: absolute;
+left: 28%;
+top: 250px;
+font-size: 36pt;
+>>>>>>> c4a806bd005566c31befc9474aa1cebf53a9d39a
 
 #money{
 position: absolute;
@@ -16,6 +123,7 @@ padding-top:10px;
 padding-bottom:10px;
 }
 
+<<<<<<< HEAD
 h1{ 
 position: absolute;
 left: 28%;
@@ -61,4 +169,50 @@ position: absolute;
 top: 580px;
 right: 270px;
 
+=======
+#pointer{
+width: 2.5%;
+height: 4%;
+position: absolute;
+top: 410px;
+left: 600px;
+}
+.down{
+width: 2.5%;
+height: 5.5%;
+}
+/*
+#arrow1{
+position: absolute;
+top: 580px;
+left: 50px;
+}
+#arrow2{
+position: absolute;
+top: 580px;
+left: 270px;
+}
+#arrow3{
+position: absolute;
+top: 580px;
+right:50px; 
+}
+#arrow4{
+position: absolute;
+top: 580px;
+right: 500px;
+}*/
+#arrow5{
+position: absolute;
+top: 580px;
+right: 270px;
+
+}
+#pause{
+width: 4%;
+height: 8%; 
+position: absolute;
+top: 20px;
+right: 10px;
+>>>>>>> c4a806bd005566c31befc9474aa1cebf53a9d39a
 }
