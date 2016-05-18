@@ -7,7 +7,7 @@ body{
 .money {
     position: absolute;
     left: -30px;
-    top: 18px;
+    top: 22px;
     border-radius: 30px;
     background: white;
     padding-left:60px;
@@ -22,7 +22,7 @@ body{
     width: 65px;
     height: 65px;
     position: absolute;
-    top: 8.8%;
+    top: 43px;
     right: 2%;
 }
 
@@ -54,6 +54,40 @@ img#pointer-up {
     font-size: 36pt;
 }
 
+.down{
+    width: 2.5%;
+    height: 5.5%;
+}
+
+/*Page 4*/
+
+#arrow1{
+position: absolute;
+top: 580px;
+left: 50px;
+}
+#arrow2{
+position: absolute;
+top: 580px;
+left: 270px;
+}
+#arrow3{
+position: absolute;
+top: 580px;
+right:50px; 
+}
+#arrow4{
+position: absolute;
+top: 580px;
+right: 500px;
+}
+#arrow5{
+position: absolute;
+top: 580px;
+right: 270px;
+}
+
+
 /*Meneu Bars*/
 header{
 margin: 100px auto;
@@ -71,73 +105,63 @@ left: 3px;
 
 }
 .label{
-font-size: 13pt; 
-position: relative;
-top: -42%;
-margin-left:60px;
-
-/*For the label font I change it to 13 pt 
-because 16 pt is really big*/
-
-/*vertical-align: middle;
-text-align: center;
-text-indent: 32px; 
-*/
-
+    font-size: 13pt; 
+    position: relative;
+    top: -42%;
+    margin-left:60px;
 }
 .label1{
-text-indent: -18px;
-left: 10px;
+    text-indent: -18px;
+    left: 10px;
 }
 pre#test{
-position: relative;
-top: -55%;
-margin-left: 15px;
-text-indent: 40px;
-tab-size: 1;
-font-size: 13pt;
-font-family: 'roboto';
+    position: relative;
+    top: -55%;
+    margin-left: 15px;
+    text-indent: 40px;
+    tab-size: 1;
+    font-size: 13pt;
+    font-family: 'roboto';
 
 }
 div.menubar{        
-position: relative;
-top: 115px;
-background-color: white;
-margin:.7px;
-float: left;
-height: 85px;
-width: Calc(100%/7.051);
-display: inline;
-
+    position: relative;
+    top: 115px;
+    background-color: white;
+    margin:.7px;
+    float: left;
+    height: 85px;
+    width: Calc(100%/7.051);
+    display: inline;
 }
 div.gradient{
-display: block;
-position: relative;
-left: -1px;
-top:-31px;
-width: 190.5px;
-height: 15px;
+    display: block;
+    position: relative;
+    left: -1px;
+    top:-31px;
+    width: 190.5px;
+    height: 15px;
 }
 div#gradient1{
-background:linear-gradient(90deg,gray,white);
+    background:linear-gradient(90deg,gray,white);
 }
 div#gradient2{
-background:linear-gradient(90deg,#E9DC68,white);    
+    background:linear-gradient(90deg,#E9DC68,white);    
 }
 div#gradient3{
-background:linear-gradient(90deg,#E55C4C,white);    
-position: absolute;
-top: 70.5px;
+    background:linear-gradient(90deg,#E55C4C,white);    
+    position: absolute;
+    top: 70.5px;
 }
 div#gradient4{
-background:linear-gradient(90deg,#A85EB6,white);    
+    background:linear-gradient(90deg,#A85EB6,white);    
 }
 
 div#gradient5{
-background:linear-gradient(90deg,#634A81,white);    
+    background:linear-gradient(90deg,#634A81,white);    
 }
 div#gradient6{
-background:linear-gradient(90deg,#3196DE,white);    
+    background:linear-gradient(90deg,#3196DE,white);    
 }
 div#gradient7{
 background:linear-gradient(90deg,#50EFBB,white);    
@@ -168,13 +192,7 @@ h1.heading {
 .container {
     text-align: center;
 }
-img#pause {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    right: 10px;
-    top: 45px;
-}
+
 img#arrow_down {
     width: 60px; 
     height: 60px;
@@ -243,7 +261,7 @@ body {
 
 #topBarsDateCollection {
     width: 100%;
-    height: 5.9999%;
+    height: 5%;
     background-color: blue;
     position: absolute;
     top: 0px;
@@ -260,28 +278,27 @@ body {
 #leftArrow {
     width: 0;
     height: 0;
-    border-top: 19.9px solid transparent;
-    border-bottom: 19.9px solid transparent;
-    border-right: 19.9px solid white;
+    border-top: 16.9px solid transparent;
+    border-bottom: 16.9px solid transparent;
+    border-right: 16.9px solid white;
     position: absolute;
     top: 0px;
-    left: 9.599%;
+    left: 9.779%;
 }
 #rightArrow {
     width: 0;
     height: 0;
-    border-top: 19.9px solid transparent;
-    border-bottom: 19.9px solid transparent;
-    border-left: 19.9px solid white;
+    border-top: 16.9px solid transparent;
+    border-bottom: 16.9px solid transparent;
+    border-left: 16.9px solid white;
     position: absolute;
     top: 0px;
-    left: 24.012345%;
+    left: 24.022345%;
 }
 
 #dashBorder {
     width: 100%;
     border: green;
->>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
     border-style: dashed;
     border-width: 1px;
     border-color: white;
@@ -290,12 +307,11 @@ body {
     left: 0%;
 }
 #timeZone{
->>>>>>> b2fb3e84ebb16d52e8d690ff5a5b0f4806fedd03
-    position: absolute;
     font-family: 'Roboto';
     font-size: 18pt;
-    top: -21px;
-    left: 12px;
+    position: absolute;
+    top: -25px;
+    left: 34.5px;
 }
 
 #socailmoodHappy1{
