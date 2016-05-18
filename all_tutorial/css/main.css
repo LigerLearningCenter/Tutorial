@@ -26,7 +26,7 @@ body{
     right: 2%;
 }
 
-#pointer {
+#pointer-down {
   width: 40px;
   height: 30px;
   position: absolute;
@@ -35,27 +35,123 @@ body{
   transform: rotate(180deg);
 }
 
-#heading { 
-position: absolute;
-left: 33%;
-top: 250px;
-font-size: 36pt;
+img#pointer-up {
+    width: 40px;
+    height: 30px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 500px;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
-/*Nothing*/
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
-#money{
+#heading { 
     position: absolute;
-    left: -30px;
-    top: 35px;
-    border-radius: 30px;
-    background: 5hite;
-    padding-left:60px;
-    padding-right: 40px;
-    padding-top:10px;
-    padding-bottom:10px;
-}    font-weight: 600;
+    left: 33%;
+    top: 250px;
+    font-size: 36pt;
+}
+
+/*Meneu Bars*/
+header{
+margin: 100px auto;
+width: 14.25%;
+height: 80px;
+display: inline;
+}
+.icon{
+width: 23.5%;
+height: 55%;
+vertical-align: middle;
+position: relative;
+top: 14px;
+left: 3px;
+
+}
+.label{
+font-size: 13pt; 
+position: relative;
+top: -42%;
+margin-left:60px;
+
+/*For the label font I change it to 13 pt 
+because 16 pt is really big*/
+
+/*vertical-align: middle;
+text-align: center;
+text-indent: 32px; 
+*/
+
+}
+.label1{
+text-indent: -18px;
+left: 10px;
+}
+pre#test{
+position: relative;
+top: -55%;
+margin-left: 15px;
+text-indent: 40px;
+tab-size: 1;
+font-size: 13pt;
+font-family: 'roboto';
+
+}
+div.menubar{        
+position: relative;
+top: 115px;
+background-color: white;
+margin:.7px;
+float: left;
+height: 85px;
+width: Calc(100%/7.051);
+display: inline;
+
+}
+div.gradient{
+display: block;
+position: relative;
+left: -1px;
+top:-31px;
+width: 190.5px;
+height: 15px;
+}
+div#gradient1{
+background:linear-gradient(90deg,gray,white);
+}
+div#gradient2{
+background:linear-gradient(90deg,#E9DC68,white);    
+}
+div#gradient3{
+background:linear-gradient(90deg,#E55C4C,white);    
+position: absolute;
+top: 70.5px;
+}
+div#gradient4{
+background:linear-gradient(90deg,#A85EB6,white);    
+}
+
+div#gradient5{
+background:linear-gradient(90deg,#634A81,white);    
+}
+div#gradient6{
+background:linear-gradient(90deg,#3196DE,white);    
+}
+div#gradient7{
+background:linear-gradient(90deg,#50EFBB,white);    
+}
+
+
+
+
+
+/*First Page*/
+h1.heading {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.1;
+    font-weight: 500;
     font-size: 36pt;
     color: #4c498b;
 }
@@ -63,6 +159,7 @@ font-size: 36pt;
     padding: 0 20px;
     position: relative;
     top: 120px;
+    text-align: center;
 }
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 20px;
@@ -71,11 +168,23 @@ font-size: 36pt;
 .container {
     text-align: center;
 }
-.header_pause {
-    position: fixed;
+img#pause {
+    width: 60px;
+    height: 60px;
     position: absolute;
-    top: 25px;
-    right: 20px;
+    right: 10px;
+    top: 45px;
+}
+img#arrow_down {
+    width: 60px; 
+    height: 60px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 270px;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 button {
     background-color: Transparent;
@@ -85,19 +194,12 @@ button {
     overflow: hidden;
     outline: none;
     text-transform: uppercase;
-    font-family: 'Roboto bold', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.1;
-    font-weight: 600;
+    font-weight: 700;
     color: #4c498b;
     font-size: 36pt;
 }
-svg.down_arrow {
-    margin-top: 20px;
-}
-.money {
-    margin-top: 70px;
-}
-
 /*3rd page code*/
 
 .moneyBars {
@@ -175,10 +277,7 @@ body {
     top: 0px;
     left: 24.012345%;
 }
-<<<<<<< HEAD
 
-#dashBorder{
-=======
 #dashBorder {
     width: 100%;
     border: green;
@@ -190,10 +289,6 @@ body {
     top: 48%;
     left: 0%;
 }
-<<<<<<< HEAD
-#timeZone {
-=======
-
 #timeZone{
 >>>>>>> b2fb3e84ebb16d52e8d690ff5a5b0f4806fedd03
     position: absolute;
@@ -202,50 +297,46 @@ body {
     top: -21px;
     left: 12px;
 }
-<<<<<<< HEAD
-=======
 
 #socailmoodHappy1{
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     position: absolute;
-    top: 9.5%;
+    top: 7.5%;
     right: 38%;
 }
 
 #socailmoodHappy2{
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     position: absolute;
-    top: 9.5%;
+    top: 7.5%;
     right: 33%;
 }
 
 #socailmoodHappy3{
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     position: absolute;
-    top: 9.5%;
+    top: 7.5%;
     right: 28%;
 }
 
 #socailmoodHappy4{
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     position: absolute;
-    top: 9.5%;
+    top: 7.5%;
     right: 23%;
 }
 
 #socailmoodSad1{
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     position: absolute;
-    top: 9.5%;
+    top: 7.5%;
     right: 18%;
 }
-<<<<<<< HEAD
-
 #commentOnPage6{
     position: absolute;
     top: 35%;
@@ -255,6 +346,3 @@ body {
     color: #4C478C;
     font-weight: bold;
 }
-=======
->>>>>>> b2fb3e84ebb16d52e8d690ff5a5b0f4806fedd03
->>>>>>> 7eea95d29a259e7231b5b146baea8c0375ae28f8
