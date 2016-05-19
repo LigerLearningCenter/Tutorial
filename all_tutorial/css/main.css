@@ -15,7 +15,7 @@ body{
     padding-top:10px;
     padding-bottom:10px;
     font-size: 32pt;
-    font-family:'roboto'; 
+    font-family:'roboto';
 }
 
 #pause {
@@ -47,7 +47,7 @@ img#pointer-up {
     right: 0;
 }
 
-#heading { 
+#heading {
     position: absolute;
     left: 33%;
     top: 35%;
@@ -74,7 +74,7 @@ left: 270px;
 #arrow3{
 position: absolute;
 top: 580px;
-right:50px; 
+right:50px;
 }
 #arrow4{
 position: absolute;
@@ -105,7 +105,7 @@ left: 3px;
 
 }
 .label{
-    font-size: 13pt; 
+    font-size: 13pt;
     position: relative;
     top: -42%;
     margin-left:60px;
@@ -124,7 +124,7 @@ pre#test{
     font-family: 'roboto';
 
 }
-div.menubar{        
+div.menubar{
     position: relative;
     top: 115px;
     background-color: white;
@@ -146,25 +146,25 @@ div#gradient1{
     background:linear-gradient(90deg,gray,white);
 }
 div#gradient2{
-    background:linear-gradient(90deg,#E9DC68,white);    
+    background:linear-gradient(90deg,#E9DC68,white);
 }
 div#gradient3{
-    background:linear-gradient(90deg,#E55C4C,white);    
+    background:linear-gradient(90deg,#E55C4C,white);
     position: absolute;
     top: 70.5px;
 }
 div#gradient4{
-    background:linear-gradient(90deg,#A85EB6,white);    
+    background:linear-gradient(90deg,#A85EB6,white);
 }
 
 div#gradient5{
-    background:linear-gradient(90deg,#634A81,white);    
+    background:linear-gradient(90deg,#634A81,white);
 }
 div#gradient6{
-    background:linear-gradient(90deg,#3196DE,white);    
+    background:linear-gradient(90deg,#3196DE,white);
 }
 div#gradient7{
-background:linear-gradient(90deg,#50EFBB,white);    
+background:linear-gradient(90deg,#50EFBB,white);
 }
 
 
@@ -194,7 +194,7 @@ h1.heading {
 }
 
 img#arrow_down {
-    width: 60px; 
+    width: 60px;
     height: 60px;
     overflow: auto;
     margin: auto;
@@ -299,7 +299,7 @@ body {
 #dashBorder {
     width: 100%;
     border: green;
-    border-style: dashed;
+    border-style: dashed 2px;
     border-width: 1px;
     border-color: white;
     position: relative;
@@ -345,7 +345,13 @@ body {
     top: 7.5%;
     right: 23%;
 }
-
+#socailmoodHappy5{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 7.5%;
+    right: 18%;
+}
 #socailmoodSad1{
     width: 65px;
     height: 65px;
