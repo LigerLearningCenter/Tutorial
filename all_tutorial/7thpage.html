@@ -2,27 +2,13 @@
 <head>
     <meta charset="utf-8">
     <title>7thpage</title>
-    <link rel="stylesheet" href="css\7thpage.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet" type="text/css">
     <style media="screen">
     body{
       background-color: #EAEDF2;
     }
-    .money{
-      font-family:'Roboto', sans-serif;
-      width: 400px;
-      background-color: #ffffff;
-      line-height: 60px;
-      text-align: center;
-      color: #4C478C;
-      border-radius: 100px;
-      box-shadow:  0px 0px 2px rgba(0, 0, 0, -5);
-      position: absolute;
-      left: -30px;
-      top: 35px;
-      font-size: 32pt;
-      font-weight: bold;
-    }
+
     .one{
       width: 99%;
       height: 75%;
@@ -37,101 +23,6 @@
        border-style: inset;;
        border-width: 1px;
     }
-    img.pause {
-      width: 67px;
-      height: 67px;
-      position: absolute;
-      right: 20px;
-      top: 35px;
-    }
-    header{
-    	margin: 100px auto;
-    	width: 14.25%;
-    	height: 80px;
-    	display: inline;
-    }
-    .icon{
-    width: 23%;
-    height: 55%;
-    vertical-align: middle;
-    position: relative;
-    top: 20px;
-    left: 5px;
-
-    }
-    p{
-    position: relative;
-    top: -30%;
-    left: 15px;
-    vertical-align: middle;
-    text-align: center;
-    text-indent: 40px;
-    text-align: justify;
-
-    }
-    #test{
-    position: relative;
-    top: -35%;
-    left: 15px;
-    text-indent: 40px;
-    tab-size: 1;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-
-    }
-    div.menubar{
-    font-size: 14px;
-    position: relative;
-    top: 105px;
-    margin: .7px;
-    background-color: white;
-    float: left;
-    height: 80px;
-    width: 14.13%;
-    display: inline;
-
-    }
-    div.gradient{
-    display: block;
-    position: relative;
-    top:-23px;
-    width: 190px;
-    height: 15px;
-
-    }
-    div#gradient1{
-    background:linear-gradient(45deg,#474747,#e6e6e6);
-    }
-    div#gradient2{
-    background:linear-gradient(45deg,#E9DC68,#fcfae9);
-    }
-    div#gradient3{
-    background:linear-gradient(45deg,#E55C4C,white);
-    position: absolute;
-    top: 65px;
-    }
-    div#gradient4{
-    background:linear-gradient(45deg,#A85EB6,white);
-    }
-    div#gradient5{
-    background:linear-gradient(45deg,#634A81,white);
-    }
-    div#gradient6{
-    background:linear-gradient(45deg,#3196DE,white);
-    }
-    div#gradient7{
-    background:linear-gradient(45deg,#50EFBB,white);
-    }
-    #date-cover{
-      width: 125%;
-      height: 25px;
-      background-color: blue;
-      position: absolute;
-      left: -25%;
-      right: -25%;
-      top: 0px;
-    }
-
     </style>
   </head>
 <body>
@@ -141,45 +32,8 @@
       </div>
     </div>
     <div class="money">$ 8,782,087,003</div>
-    <img class="pause" src="img\ICONS\navagation\pause.png" alt="pause">
-    <header>
-    	<div class="menubar">
-    		<img src="img/ICONS/SECTORS/industry.png" class="icon">
-    		<p class="label">INDUSTRY</p>
-    		<div id="gradient1" class="gradient"></div>
-    	</div>
-    	<div class="menubar">
-    		<img src="img/ICONS/SECTORS/agriculture.png" class="icon">
-    		<p id="label">AGRICULTURE</p>
-    		<div id="gradient2" class="gradient"></div>
-    	</div>
-    	<div class="menubar">
-    		<img src="img/ICONS/SECTORS/consumer-service.png" class="icon">
-    		<pre id="test">CONSUMER
-    					         SERVICES</pre>
-    		<div id="gradient3" class="gradient"></div>
-    	</div>
-    	<div class="menubar">
-    		<img src="img/ICONS/SECTORS/infrastructure.png" class="icon">
-    		<p class="label">INFRASTRUCTURE</p>
-    		<div id="gradient4" class="gradient"></div>
-    	</div>
-    	<div class="menubar">
-    		<img src="img/ICONS/SECTORS/education.png" class="icon">
-    		<p class="label">EDUCATION</p>
-    		<div id="gradient5" class="gradient"></div>
-    	</div>
-    	<div class="menubar">
-    		<img src="img/ICONS/SECTORS/tourism.png" class="icon">
-    		<p class="label">TOURISM</p>
-    		<div id="gradient6" class="gradient"></div>
-    	</div>
-    	<div class="menubar">
-    		<img src="img/ICONS/SECTORS/ecology.png" class="icon">
-    		<p class="label">ECOLOGY</p>
-    		<div id="gradient7" class="gradient"></div>
-    	</div>
-    </header>
+    <img id="pause" src="img\ICONS\navagation\pause.png" alt="pause">
+    
     <div class="one">
       <hr>
       <hr>
@@ -192,6 +46,44 @@
       <hr>
     </div>
 
+<header>
+  <div class="menubar">
+    <img src="img/icons/sectors/industry.png" class="icon" id="img1">
+    <p class="label">INDUSTRY</p> 
+    <div id ="gradient1" class="gradient"></div>
+  </div>
+  <div class="menubar">
+    <img src="img/icons/sectors/agriculture.png" class="icon" id="img2">
+    <p class="label">AGRICULTURE</p>
+    <div id ="gradient2" class="gradient"></div>  
+  </div>
+  <div class="menubar">
+    <img src="img/icons/sectors/consumer-service.png" class="icon" id="img3">
+    <pre id="test"> CONSUMER 
+               SERVICES</pre>
+    <div id ="gradient3" class="gradient"></div>
+  </div>
+  <div class="menubar">
+    <img src="img/icons/sectors/infrastructure.png" class="icon" id="img4">
+    <p class="label label1">INFRASTRUCTURE</p>  
+    <div id ="gradient4" class="gradient"></div>
+  </div>
+  <div class="menubar">
+    <img src="img/icons/sectors/education.png" class="icon" id="img5">
+    <p class="label">EDUCATION</p>  
+    <div id ="gradient5" class="gradient"></div>
+  </div>
+  <div class="menubar">
+    <img src="img/icons/sectors/tourism.png" class="icon" id="img6">
+    <p class="label">TOURISM</p>  
+    <div id ="gradient6" class="gradient"></div>
+  </div>
+  <div class="menubar extra">
+    <img src="img/icons/sectors/ecology.png" class="icon" id="img7">
+    <p class="label">ECOLOGY</p>  
+    <div id ="gradient7" class="gradient"></div>
+  </div>
+</header>
 
 </body>
 <html>
