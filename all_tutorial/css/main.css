@@ -306,12 +306,12 @@ body {
     top: 48%;
     left: 0%;
 }
-#timeZone{
+#timeZone {
     font-family: 'Roboto';
     font-size: 18pt;
     position: absolute;
     top: -25px;
-    left: 34.5px;
+    left: 27px;
 }
 
 #socailmoodHappy1{
@@ -361,4 +361,20 @@ body {
     font-family: "Roboto";
     color: #4C478C;
     font-weight: bold;
+}
+
+/*Page 7*/
+.one{
+      width: 99%;
+      height: 75%;
+      position: absolute;
+      bottom: 0px;
+}
+
+hr {
+      display: block;
+       margin-top: 3em;
+       margin-bottom: 3em;
+       border-style: inset;;
+       border-width: 1px;
 }
