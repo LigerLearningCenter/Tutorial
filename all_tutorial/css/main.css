@@ -61,9 +61,9 @@ img#pointer-up{
     bottom: 0;
 }
 
-#heading { 
+.container.content#heading { 
     position: absolute;
-    left: 33%;
+    left: 27%;
     top: 35%;
     font-size: 36pt;
     font-family: 'roboto';
@@ -185,7 +185,7 @@ background:linear-gradient(90deg,#50EFBB,white);
 
 
 /*First Page*/
-h1.heading {
+h1#heading {
     font-family: 'Roboto', sans-serif;
     line-height: 1.1;
     font-weight: 500;
