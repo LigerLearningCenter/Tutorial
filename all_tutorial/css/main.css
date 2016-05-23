@@ -3,38 +3,42 @@
 }
 
 /*Overal Code*/
-body {
+body{
     background-color: #eaedf2;
     color: #4c498b;
 }
+
 .money {
     position: absolute;
     left: -30px;
-    top: 22px;
-    border-radius: 30px;
+    top: 20px;
+    border-radius: 90px;
     background: white;
-    padding-left: 60px;
+    padding-left:60px;
     padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
     font-size: 32pt;
-    font-family: 'roboto';
+    font-family:'roboto'; 
 }
+
 #pause {
     width: 65px;
-    height: 65px;
+    height: 60px;
     position: absolute;
-    top: 43px;
-    right: 2%;
+    top: 31px;
+    right: 0%;
 }
+
 #pointer-down {
-    width: 40px;
-    height: 30px;
-    position: absolute;
-    left: 575px;
-    bottom: 300px;
-    transform: rotate(180deg);
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  left: 575px;
+  bottom: 300px;
+  transform: rotate(180deg);
 }
+
 img.pointer-up {
     width: 40px;
     height: 30px;
@@ -46,129 +50,139 @@ img.pointer-up {
     bottom: 0;
     right: 0;
 }
-img#pointer-up {
+img#pointer-up{
     width: 40px;
     height: 30px;
     overflow: auto;
     margin: auto;
-    position: absolute;
+    position: absolute; 
     top: 55%;
     left: 37%;
     bottom: 0;
 }
-#heading {
+
+#heading { 
     position: absolute;
     left: 33%;
     top: 35%;
     font-size: 36pt;
     font-family: 'roboto';
 }
-.down {
+
+.down{
     width: 2.5%;
     height: 5.5%;
 }
 
 /*Page 4*/
-#arrow1 {
-    position: absolute;
-    top: 580px;
-    left: 50px;
+
+#arrow1{
+position: absolute;
+top: 580px;
+left: 50px;
 }
-#arrow2 {
-    position: absolute;
-    top: 580px;
-    left: 270px;
+#arrow2{
+position: absolute;
+top: 580px;
+left: 270px;
 }
-#arrow3 {
-    position: absolute;
-    top: 580px;
-    right: 50px;
+#arrow3{
+position: absolute;
+top: 580px;
+right:50px; 
 }
-#arrow4 {
-    position: absolute;
-    top: 580px;
-    right: 500px;
+#arrow4{
+position: absolute;
+top: 580px;
+right: 500px;
 }
-#arrow5 {
-    position: absolute;
-    top: 580px;
-    right: 270px;
+#arrow5{
+position: absolute;
+top: 580px;
+right: 270px;
 }
 
+
 /*Meneu Bars*/
-header {
+header{
     margin: 100px auto;
     width: 14.25%;
     height: 80px;
     display: inline;
 }
-.icon {
-    width: 23.5%;
-    height: 55%;
-    vertical-align: middle;
-    position: relative;
-    top: 14px;
-    left: 3px;
+.icon{
+width: 23.5%;
+height: 55%;
+vertical-align: middle;
+position: relative;
+top: 14px;
+left: 3px;
+
 }
-.label {
-    font-size: 13pt;
+.label{
+    font-size: 13pt; 
     position: relative;
     top: -42%;
-    margin-left: 60px;
+    margin-left:60px;
 }
-.label1 {
+.label1{
     text-indent: -18px;
     left: 10px;
-    font-weight:
+    font-weight: 
 }
-pre.test {
-    font-size: 13pt;
+pre.test{
+    font-size: 13pt; 
     position: relative;
     top: -55%;
     margin-left: 17px;
     text-indent: 40px;
 }
-div.menubar {
+div.menubar{        
     position: relative;
-    top: 115px;
+    top: 97px;
     background-color: white;
-    margin: .7px;
+    margin:.7px;
     float: left;
     height: 85px;
     width: Calc(100%/7.051);
     display: inline;
 }
-div.gradient {
+div.gradient{
     display: block;
     position: relative;
     left: -1px;
-    top: -31px;
+    top:-31px;
     width: 190.5px;
     height: 15px;
 }
-div#gradient1 {
-    background: linear-gradient(90deg, gray, white);
+div#gradient1{
+    background:linear-gradient(90deg,gray,white);
 }
-div#gradient2 {
-    background: linear-gradient(90deg, #E9DC68, white);
+div#gradient2{
+    background:linear-gradient(90deg,#E9DC68,white);    
 }
-div#gradient3 {
-    background: linear-gradient(90deg, #E55C4C, white);
+div#gradient3{
+    background:linear-gradient(90deg,#E55C4C,white);    
     position: absolute;
     top: 70.5px;
 }
-div#gradient4 {
-    background: linear-gradient(90deg, #A85EB6, white);
+div#gradient4{
+    background:linear-gradient(90deg,#A85EB6,white);    
 }
-div#gradient5 {
-    background: linear-gradient(90deg, #634A81, white);
+
+div#gradient5{
+    background:linear-gradient(90deg,#634A81,white);    
 }
-div#gradient6 {
-    background: linear-gradient(90deg, #3196DE, white);
+div#gradient6{
+    background:linear-gradient(90deg,#3196DE,white);    
 }
-div#gradient7 {
-    background: linear-gradient(90deg, #50EFBB, white);
+div#gradient7{
+background:linear-gradient(90deg,#50EFBB,white);    
 }
+
+
+
+
 
 /*First Page*/
 h1.heading {
@@ -191,8 +205,9 @@ h1.heading {
 .container {
     text-align: center;
 }
+
 img#arrow-down {
-    width: 60px;
+    width: 60px; 
     height: 60px;
     overflow: auto;
     margin: auto;
@@ -216,8 +231,8 @@ button#click-here {
     color: #4c498b;
     font-size: 36pt;
 }
-
 /*3rd page code*/
+
 .moneyBars {
     width: 24%;
     height: 10%;
@@ -256,6 +271,7 @@ body {
 }
 
 /*6th Page Code*/
+
 #topBarsDateCollection {
     width: 100%;
     height: 5%;
@@ -292,10 +308,11 @@ body {
     top: 0px;
     left: 24.022345%;
 }
+
 #dashBorder {
     width: 100%;
     border: green;
-    border-style: dashed 2px;
+    border-style: dashed;
     border-width: 1px;
     border-color: white;
     position: relative;
@@ -309,49 +326,47 @@ body {
     top: -25px;
     left: 27px;
 }
-#socailmoodHappy1 {
-    width: 65px;
-    height: 65px;
+
+#socailmoodHappy1{
+    width: 55px;
+    height: 55px;
     position: absolute;
-    top: 7.5%;
-    right: 38%;
+    top: 5.7%;
+    right: 34%;
 }
-#socailmoodHappy2 {
-    width: 65px;
-    height: 65px;
+
+#socailmoodHappy2{
+    width: 55px;
+    height: 55px;
     position: absolute;
-    top: 7.5%;
-    right: 33%;
+    top: 5.7%;
+    right: 29%;
 }
-#socailmoodHappy3 {
-    width: 65px;
-    height: 65px;
+
+#socailmoodHappy3{
+    width: 55px;
+    height: 55px;
     position: absolute;
-    top: 7.5%;
-    right: 28%;
+    top: 5.7%;
+    right: 24%;
 }
-#socailmoodHappy4 {
-    width: 65px;
-    height: 65px;
+
+#socailmoodHappy4{
+    width: 55px;
+    height: 55px;
     position: absolute;
-    top: 7.5%;
-    right: 23%;
+    top: 5.7%;
+    right: 19%;
 }
-#socailmoodHappy5 {
-    width: 65px;
-    height: 65px;
+
+#socailmoodSad1{
+    width: 55px;
+    height: 55px;
     position: absolute;
-    top: 7.5%;
-    right: 18%;
+    top: 5.7%;
+    right: 14%;
 }
-#socailmoodSad1 {
-    width: 65px;
-    height: 65px;
-    position: absolute;
-    top: 7.5%;
-    right: 18%;
-}
-#commentOnPage6 {
+#commentOnPage6{
     position: absolute;
     top: 35%;
     left: 15%;
@@ -362,16 +377,17 @@ body {
 }
 
 /*Page 7*/
-.one {
-    width: 99%;
-    height: 75%;
-    position: absolute;
-    bottom: 0px;
+.one{
+      width: 99%;
+      height: 75%;
+      position: absolute;
+      bottom: 0px;
 }
+
 hr {
-    display: block;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    border-style: inset;
-    border-width: 1px;
+      display: block;
+       margin-top: 3em;
+       margin-bottom: 3em;
+       border-style: inset;;
+       border-width: 1px;
 }
