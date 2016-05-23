@@ -381,9 +381,9 @@ body {
 }
 
 hr {
-      display: block;
+       display: block;
        margin-top: 3em;
        margin-bottom: 3em;
-       border-style: inset;;
+       border-style: inset;
        border-width: 1px;
 }
