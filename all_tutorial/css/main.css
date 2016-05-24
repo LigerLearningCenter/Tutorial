@@ -378,3 +378,8 @@ hr {
     left: 25%;
     font-weight: normal;
 }
+#arrow{
+    position: absolute;
+    left: 475px;
+    top: 515px;
+}
