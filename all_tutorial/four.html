@@ -20,7 +20,23 @@
 <h1 class="money">$ 8,782,087,003</h1>
 <img id="pointer-up" src="img/ICONS/OTHER/pointer.png">
 
-<img id="pause" src="img/ICONS/navagation/pause.png">
+<img id="pause" src="img/ICONS/navagation/pause.png" data-selected="false">
+<!-- <img id="pause"scr="img/ICONS/navagation/play-white.ng-->
+
+<script type="text/javascript">
+  
+      $("#pause").click(function() {
+        console.log("click");
+        if ($(this).attr("data-selected") == "false") {
+          $(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
+          $(this).attr("data-selected", "true");          
+        } else {
+          $(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
+          $(this).attr("data-selected", "false");                   
+        }
+      });
+
+</script>
 
 <div id="allArrow" class="page-4">
 	<img src="img/ICONS/navagation/down-arrow.png" id="arrow1" class="down">
