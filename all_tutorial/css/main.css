@@ -13,22 +13,22 @@ body {
 .money {
     position: absolute;
     left: -30px;
-    top: 20px;
+    top: 3vh;
     border-radius: 90px;
     background: white;
     padding-left: 60px;
     padding-right: 40px;
     padding-top: 2.5px;
     padding-bottom: 2.5px;
-    font-size: 32pt;
+    font-size: 3.2vw;
     font-family: 'roboto';
 }
 #pause {
-    width: 65px;
-    height: 60px;
+    width: 5vw;
+    height: 5vw;
     position: absolute;
-    top: 31px;
-    right: 0%;
+    top: 30px;
+    right: 2%;
 }
 #pointer-down {
     width: 40px;
@@ -175,10 +175,15 @@ div#gradient7 {
 
 /*First Page*/
 h1#heading {
+    position: absolute;
     font-family: 'Roboto', sans-serif;
+    top: 15vh;
+    left: 0vh;
+    right: 0vh;
     line-height: 1.1;
+    text-align: center;
     font-weight: 500;
-    font-size: 36pt;
+    font-size: 3.75vw;
     color: #4c498b;
 }
 .content {
