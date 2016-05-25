@@ -172,13 +172,8 @@ div#gradient7 {
 
 /*First Page*/
 h1#heading {
-    position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 15vh;
-    left: 0vh;
-    right: 0vh;
     line-height: 1.1;
-    text-align: center;
     font-weight: 500;
     font-size: 3.75vw;
     color: #4c498b;
