@@ -201,6 +201,8 @@ img#arrow-down {
     left: 0;
     bottom: 0;
     right: 0;
+    animation-name: zoomIn;
+    animation-duration: 2.5s;
 }
 button#click-here {
     background-color: Transparent;
