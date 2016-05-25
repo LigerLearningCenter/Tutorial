@@ -3,6 +3,9 @@
 }
 
 /*Overal Code*/
+html {
+    cursor: url("cursor.png"), auto;
+}
 body {
     background-color: #eaedf2;
     color: #4c498b;
