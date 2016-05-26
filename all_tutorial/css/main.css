@@ -22,6 +22,8 @@ body {
     padding-bottom: 2.5px;
     font-size: 3.2vw;
     font-family: 'roboto';
+    animation-name: zoomIn;
+    animation-duration: 2.5s;
 }
 #pause {
     width: 5vw;
@@ -180,6 +182,8 @@ h1#heading {
     font-weight: 500;
     font-size: 3.75vw;
     color: #4c498b;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 .content {
     padding: 0 20px;
@@ -195,16 +199,16 @@ h1#heading {
     text-align: center;
 }
 img#arrow-down {
-    width: 60px;
-    height: 60px;
+    width: 4vw;
+    height: 4vw;
     overflow: auto;
     margin: auto;
     position: absolute;
-    top: 270px;
+    top: 25vw;
     left: 0;
     bottom: 0;
     right: 0;
-    animation-name: zoomIn;
+    animation-name: bounce;
     animation-duration: 2.5s;
 }
 button#click-here {
@@ -219,7 +223,9 @@ button#click-here {
     line-height: 1.1;
     font-weight: 700;
     color: #4c498b;
-    font-size: 36pt;
+    font-size: 4vw;
+    animation-name: fadeIn;
+    animation-duration: 2.5s;
 }
 
 /*3rd page code*/
@@ -232,6 +238,8 @@ button#click-here {
     position: fixed;
     top: 9.5%;
     left: 0%;
+    animation-name: zoomIn;
+    animation-duration: 2.5s;
 }
 body {
     background-color: #EAEDF2;
@@ -316,36 +324,36 @@ body {
     left: 27px;
 }
 #socailmoodHappy1 {
-    width: 55px;
-    height: 55px;
+    width: 4vw;
+    height: 4vw;
     position: absolute;
     top: 5.7%;
     right: 34%;
 }
 #socailmoodHappy2 {
-    width: 55px;
-    height: 55px;
+    width: 4vw;
+    height: 4vw;
     position: absolute;
     top: 5.7%;
     right: 29%;
 }
 #socailmoodHappy3 {
-    width: 55px;
-    height: 55px;
+    width: 4vw;
+    height: 4vw;
     position: absolute;
     top: 5.7%;
     right: 24%;
 }
 #socailmoodHappy4 {
-    width: 55px;
-    height: 55px;
+    width: 4vw;
+    height: 4vw;
     position: absolute;
     top: 5.7%;
     right: 19%;
 }
 #socailmoodSad1 {
-    width: 55px;
-    height: 55px;
+    width: 4vw;
+    height: 4vw;
     position: absolute;
     top: 5.7%;
     right: 14%;
