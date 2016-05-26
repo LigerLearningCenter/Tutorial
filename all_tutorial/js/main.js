@@ -1,20 +1,25 @@
 $(document).ready(function() {
+    $( ".menubar" ).hide();
+//Will view Second
     $("#click-here").bind("click", function(event) {
         $("#page-2").show();
         $(".page-1").hide();
         $(".money").show();
         $("#page-2Next").show();
     });
+//Will view Third  
     $("#page-2Next").bind("click", function(event) {
         $(".page-3").show();
-        $( "page-4Next" ).show();
+        $( "page-3Next" ).show();
         $("#page-2Next").hide();
     });
-    $( "#page-4Next" ).bind( "click", function(event){
-    	$( ".page-4" ).show();
+
+//Will view Fourth
+    $( "#page-3Next" ).bind( "click", function(event){
+    	$( "#allArrow" ).show();
     	$( ".page-3").hide();
     	$( ".menubar" ).show();
-
+        $( "h1#heading").show();
     });
 });
 
