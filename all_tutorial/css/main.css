@@ -140,6 +140,7 @@ div.menubar {
     height: 85px;
     width: Calc(100%/7.051);
     display: inline;
+    visibility: hidden;
 }
 div.gradient {
     display: block;
