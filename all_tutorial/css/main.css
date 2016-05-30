@@ -208,8 +208,9 @@ img#arrow-down {
     left: 0;
     bottom: 0;
     right: 0;
-    animation-name: bounce;
-    animation-duration: 2.5s;
+    animation-name: bounceIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 button#click-here {
     background-color: Transparent;
@@ -274,8 +275,8 @@ body {
     height: 5%;
     background-color: blue;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0vw;
+    left: 0vw;
 }
 #dateCollection {
     width: 13%;
