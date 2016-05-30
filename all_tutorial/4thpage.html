@@ -27,10 +27,10 @@
       $("#pause").click(function() {
         console.log("click");
         if ($(this).attr("data-selected") == "false") {
-          $(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
+          $(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
           $(this).attr("data-selected", "true");          
         } else {
-          $(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
+          $(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
           $(this).attr("data-selected", "false");                   
         }
       });
@@ -47,7 +47,7 @@
 
 <!-- Heading -->
 <header>
-  <div class="menubar">
+  <div class="menubar" hidden="true">
     <img src="img/icons/sectors/industry.png" class="icon" id="img1">
     <p class="label">INDUSTRY</p> 
     <div id ="gradient1" class="gradient"></div>

@@ -1,45 +1,94 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>index</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-</head>
-<body>
+<!-- Head -->
+    <head>
+        <title>index</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
+    </head>
+    <body>
+        <!-- Main Code -->
+        <h1 class="money" hidden="true">$ 8,782,087,003</h1>
+        <img id="pause" src="img/ICONS/navagation/pause.png" alt="pause" data-selected="false"/>
+        <!-- Page One -->
+        <div class="container page-1">
+            <div class="content">
+                <h1 id="heading">Build a great country for the <br> 100th independence anniversary!</h1>
+                </br>
+                <button id ="click-here" type="button" name="CLICK HERE">Click Here</button>
+                <img id= "arrow-down" src="img/icons/navagation/down-arrow.png">
+                <br>
+            </div>
+        </div>
+        <!-- Page Two -->
+        <div id="page-2" hidden="true">
+            <button id="page-2Next" hidden="true">Next</button>
+        </div>
+        <!-- Page Three -->
+        <div class="container page-3" hidden="true">
+            <button id="page-3Next">Next4</button>
+            <div class="content">
+                <h1 id="heading">This is your money</h1>
+            </div>
+        </div>
+        <!-- Page Four -->
 <!-- Main Code -->
     <h1 class="money" hidden="true">$ 8,782,087,003</h1>
     <img id="pause" src="img/ICONS/navagation/pause.png" alt="pause" />
 
-<!-- Page One -->
-<div class="container page-1">
-    <div class="content">
-	    <h1 id="heading">Build a great country for the <br> 100th independence anniversary!</h1>
-    </br>
-        <button id ="click-here" type="button" name="CLICK HERE">Click Here</button>
-        <img id= "arrow-down" src="img/icons/navagation/down-arrow.png">
-        <br>
-        <img class="pointer-up" src="img/icons/other/pointer.png">
-    </div>
-</div>
-
-<!-- Page Two -->
-<div id="page-2" hidden="true">
-    <img id="pointer-down" src="img/ICONS/OTHER/pointer.png" alt="pointer" />
-    <button id="page-2Next" hidden="true">Next</button>
-</div>
-
-<!-- Page Three -->
-
-<div class="container page-3" hidden="true">
-	<div class="content">
-  		<h1 id="heading">This is your money</h1>
-
-  	</div>
-</div>
-
-</body>
+            <div id="allArrow" hidden="true">
+            <img src="img/ICONS/navagation/down-arrow.png" id="arrow1" class="down">
+            <img src="img/ICONS/navagation/down-arrow.png" id="arrow2" class="down">
+            <img src="img/ICONS/navagation/down-arrow.png" id="arrow3" class="down">
+            <img src="img/ICONS/navagation/down-arrow.png" id="arrow4" class="down">
+            <img src="img/ICONS/navagation/down-arrow.png" id="arrow5" class="down">
+            </div>
+                <!-- Heading -->
+            <header hidden="true">
+            <div class="menubar">
+                <img src="img/icons/sectors/industry.png" class="icon" id="img1">
+                <p class="label">INDUSTRY</p>
+                <div id ="gradient1" class="gradient"></div>
+            </div>
+            <div class="menubar">
+                <img src="img/icons/sectors/agriculture.png" class="icon" id="img2">
+                <p class="label">AGRICULTURE</p>
+                <div id ="gradient2" class="gradient"></div>
+            </div>
+            <div class="menubar">
+                <img src="img/icons/sectors/consumer-service.png" class="icon" id="img3">
+                            <pre class="test"> CONSUMER 
+            SERVICES</pre>
+                <div id ="gradient3" class="gradient"></div>
+            </div>
+            <div class="menubar">
+                <img src="img/icons/sectors/infrastructure.png" class="icon" id="img4">
+                <p class="label label1">INFRASTRUCTURE</p>
+                <div id ="gradient4" class="gradient"></div>
+            </div>
+            <div class="menubar">
+                <img src="img/icons/sectors/education.png" class="icon" id="img5">
+                <p class="label">EDUCATION</p>
+                <div id ="gradient5" class="gradient"></div>
+            </div>
+            <div class="menubar">
+                <img src="img/icons/sectors/tourism.png" class="icon" id="img6">
+                <p class="label">TOURISM</p>
+                <div id ="gradient6" class="gradient"></div>
+            </div>
+            <div class="menubar extra">
+                <img src="img/icons/sectors/ecology.png" class="icon" id="img7">
+                <p class="label">ECOLOGY</p>
+                <div id ="gradient7" class="gradient"></div>
+            </header>
+            <div class="container" class="page-4">
+                <div class="content" hidden="true">
+                    <h1 id="heading">Put it in different businesses</h1>
+                </div>
+            </div>
+    </body>
 </html>

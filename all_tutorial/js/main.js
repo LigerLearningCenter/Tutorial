@@ -1,14 +1,43 @@
 $(document).ready(function() {
-	$( "#click-here" ).bind( "click", function ( event ) { 
-		$( "#page-2" ).show();
-		$( ".page-1" ).hide();
-		$( ".money" ).show();
-		$( "#page-2Next" ).show();
-	});
-	$( "#page-2Next" ).bind( "click", function ( event ) {
-		$( ".page-3" ).show();
-	})
+    $( ".menubar" ).hide();
+//Will view Second
+    $("#click-here").bind("click", function(event) {
+        $("#page-2").show();
+        $(".page-1").hide();
+        $(".money").show();
+        $("#page-2Next").show();
+    });
+//Will view Third  
+    $("#page-2Next").bind("click", function(event) {
+        $(".page-3").show();
+        $( "page-3Next" ).show();
+        $("#page-2Next").hide();
+    });
+
+//Will view Fourth
+    $( "#page-3Next" ).bind( "click", function(event){
+    	$( "#allArrow" ).show();
+    	$( ".page-3").hide();
+    	$( ".menubar" ).show();
+        $( "h1#heading").show();
+    });
 });
+
+
+
+
+//Pausing Icon
+$("#pause").click(function() {
+    console.log("click");
+    if ($(this).attr("data-selected") == "false") {
+        $(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
+        $(this).attr("data-selected", "true");
+    } else {
+        $(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
+        $(this).attr("data-selected", "false");
+    }
+});
+
 
 // //3rd Page code 
 // 	//Changing the point number 
@@ -16,7 +45,7 @@ $(document).ready(function() {
 // 	var moneyReal = document.getElementById("moneyInTheBank").innerHTML;
 // 	var moneyDisplay = "";
 // 	moneyReal = parseInt(moneyReal);
-	
+
 // 	if (moneyReal > 1000) {
 // 		var round = moneyReal/1000;
 // 		console.log(round);
