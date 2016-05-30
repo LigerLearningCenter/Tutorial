@@ -15,19 +15,18 @@
         <!-- Main Code -->
         <h1 class="money" hidden="true">$ 8,782,087,003</h1>
         <img id="pause" src="img/ICONS/navagation/auto-play-white-small.png" data-selected="false">
-
         <script type="text/javascript">
-			$("#pause").click(function() {
-				console.log("click");
-				if ($(this).attr("data-selected") == "false") {
-					$(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
-					$(this).attr("data-selected", "true");					
-				} else {
-					$(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
-					$(this).attr("data-selected", "false");										
-				}
-			}); </script>
-        <!-- Page One -->
+        $("#pause").click(function() {
+        console.log("click");
+        if ($(this).attr("data-selected") == "false") {
+        $(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
+        $(this).attr("data-selected", "true");
+        } else {
+        $(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
+        $(this).attr("data-selected", "false");
+        }
+        }); </script>
+    <!-- Page One -->
         <div class="container page-1">
             <div class="content">
                 <h1 id="heading">Build a great country for the <br> 100th independence anniversary!</h1>
@@ -37,105 +36,97 @@
                 <br>
             </div>
         </div>
-        <!-- Page Two -->
+
+    <!-- Page Two -->
         <div id="page-2" hidden="true">
             <button id="page-2Next" hidden="true">Next 1</button>
         </div>
-        <!-- Page Three -->
+    <!-- Page Three -->
         <div class="container page-3" hidden="true">
             <button id="page-3Next">Next2</button>
             <div class="content">
                 <h1 id="heading">This is your money</h1>
             </div>
         </div>
-        <!-- Page Four -->
-        <div id="allArrow" hidden="true">
-
-<!-- Main Code -->
-    <h1 class="money" hidden="true">$ 8,782,087,003</h1>
-
+    <!-- Page Four -->
             <div id="allArrow" hidden="true">
-            <img src="img/ICONS/navagation/down-arrow.png" id="arrow1" class="down">
-            <img src="img/ICONS/navagation/down-arrow.png" id="arrow2" class="down">
-            <img src="img/ICONS/navagation/down-arrow.png" id="arrow3" class="down">
-            <img src="img/ICONS/navagation/down-arrow.png" id="arrow4" class="down">
-            <img src="img/ICONS/navagation/down-arrow.png" id="arrow5" class="down arrow5">
-        </div>
-        <button id="page-4Next" hidden="true" style="position: absolute; top: 0px; width: 0px;">Next 3</button>
-        <!-- Heading -->
-        <header hidden="true">
-            <div class="menubar">
-                <img src="img/icons/sectors/industry.png" class="icon" id="img1">
-                <p class="label">INDUSTRY</p>
-                <div id ="gradient1" class="gradient"></div>
+                <img src="img/ICONS/navagation/down-arrow.png" id="arrow1" class="down">
+                <img src="img/ICONS/navagation/down-arrow.png" id="arrow2" class="down">
+                <img src="img/ICONS/navagation/down-arrow.png" id="arrow3" class="down">
+                <img src="img/ICONS/navagation/down-arrow.png" id="arrow4" class="down">
+                <img src="img/ICONS/navagation/down-arrow.png" id="arrow5" class="down">
             </div>
-            <div class="menubar">
-                <img src="img/icons/sectors/agriculture.png" class="icon" id="img2">
-                <p class="label">AGRICULTURE</p>
-                <div id ="gradient2" class="gradient"></div>
-            </div>
-            <div class="menubar">
-                <img src="img/icons/sectors/consumer-service.png" class="icon" id="img3">
-                                            <pre class="test"> CONSUMER 
-                SERVICES</pre>
-                <pre class="test"> CONSUMER 
-            SERVICES</pre>
-                <div id ="gradient3" class="gradient"></div>
-            </div>
-            <div class="menubar">
-                <img src="img/icons/sectors/infrastructure.png" class="icon" id="img4">
-                <p class="label label1">INFRASTRUCTURE</p>
-                <div id ="gradient4" class="gradient"></div>
-            </div>
-            <div class="menubar">
-                <img src="img/icons/sectors/education.png" class="icon" id="img5">
-                <p class="label">EDUCATION</p>
-                <div id ="gradient5" class="gradient"></div>
-            </div>
-            <div class="menubar">
-                <img src="img/icons/sectors/tourism.png" class="icon" id="img6">
-                <p class="label">TOURISM</p>
-                <div id ="gradient6" class="gradient"></div>
-            </div>
-            <div class="menubar extra">
-                <img src="img/icons/sectors/ecology.png" class="icon" id="img7">
-                <p class="label">ECOLOGY</p>
-                <div id ="gradient7" class="gradient"></div>
-            </header>
-            <div class="container" class="page-4">
-                <div class="content" hidden="true">
-                    <h1 class="business" id="heading">Put it in different businesses</h1>
+            <button id="page-4Next" hidden="true" style="position: absolute; top: 0px; width: 0px;">Next 3</button>
+            <!-- Heading -->
+            <header hidden="true">
+                <div class="menubar">
+                    <img src="img/icons/sectors/industry.png" class="icon" id="img1">
+                    <p class="label">INDUSTRY</p>
+                    <div id ="gradient1" class="gradient"></div>
                 </div>
-            </div>
-            <!-- Page Five -->
-            <img src="img/ICONS/navagation/down-arrow.png" hidden="true" id="arrow5" class="down">
-            <button id="page-5Next"  hidden="true" style="position: absolute; top: 0px; left: 0px;">Next 4</button>
-            <!-- Don't have code becasue it the same as page four -->
-            
-            <!-- Page sixth -->
-            <button id="page-6Next" hidden="true" style="position: absolute; top: 0px; left: 0px;">Next 5</button>
-
-            <div id="topBarsDateCollection" hidden="true">
-                <div id="dashBorder"></div>
-                <div id="dateCollection">
-                    <p id="timeZone">18.05.2016</p>
+                <div class="menubar">
+                    <img src="img/icons/sectors/agriculture.png" class="icon" id="img2">
+                    <p class="label">AGRICULTURE</p>
+                    <div id ="gradient2" class="gradient"></div>
                 </div>
-                <div id="leftArrow"></div>
-                <div id="rightArrow"></div>
-            </div>
-            <!-- socailmood -->
-            <div class="socialMood" hidden="true">
-            <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy1">
-            <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy2">
-            <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy3">
-            <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy4">
-            <img src="img/ICONS/OTHER/socialmoodSad.png" id="socailmoodSad1">
-            </div>
-
-            <div class="container">
-                <div class="content" hidden="true">
-                    <h1 class ="show" id="heading" hidden="true">Over time it can turn into profit and make your citizens happy</h1>
+                <div class="menubar">
+                    <img src="img/icons/sectors/consumer-service.png" class="icon" id="img3">
+                                                                                    <pre class="test"> CONSUMER 
+                    SERVICES</pre>
+                    <div id ="gradient3" class="gradient"></div>
                 </div>
-            </div>
-        </body>
-    </html>
+                <div class="menubar">
+                    <img src="img/icons/sectors/infrastructure.png" class="icon" id="img4">
+                    <p class="label label1">INFRASTRUCTURE</p>
+                    <div id ="gradient4" class="gradient"></div>
+                </div>
+                <div class="menubar">
+                    <img src="img/icons/sectors/education.png" class="icon" id="img5">
+                    <p class="label">EDUCATION</p>
+                    <div id ="gradient5" class="gradient"></div>
+                </div>
+                <div class="menubar">
+                    <img src="img/icons/sectors/tourism.png" class="icon" id="img6">
+                    <p class="label">TOURISM</p>
+                    <div id ="gradient6" class="gradient"></div>
+                </div>
+                <div class="menubar extra">
+                    <img src="img/icons/sectors/ecology.png" class="icon" id="img7">
+                    <p class="label">ECOLOGY</p>
+                    <div id ="gradient7" class="gradient"></div>
+                </header>
+                <div class="container" class="page-4">
+                    <div class="content" hidden="true">
+                        <h1 class="business" id="heading">Put it in different businesses</h1>
+                    </div>
+                </div>
+                <!-- Page Five -->
+                <img src="img/ICONS/navagation/down-arrow.png" hidden="true" id="arrow5" class="down">
+                <button id="page-5Next"  hidden="true" style="position: absolute; top: 0px; left: 0px;">Next 4</button>
+                <!-- Don't have code becasue it the same as page four -->
+                
+                <!-- Page sixth -->
+                <button id="page-6Next" hidden="true" style="position: absolute; top: 0px; left: 0px;">Next 5</button>
+                <div id="topBarsDateCollection" hidden="true">
+                    <div id="dashBorder"></div>
+                    <div id="dateCollection">
+                        <p id="timeZone">18.05.2016</p>
+                    </div>
+                    <div id="leftArrow"></div>
+                    <div id="rightArrow"></div>
+                </div>
+                <!-- socailmood -->
+                <div class="socialMood" hidden="true">
+                    <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy1">
+                    <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy2">
+                    <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy3">
+                    <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy4">
+                    <img src="img/ICONS/OTHER/socialmoodSad.png" id="socailmoodSad1">
+                </div>
+                <div class="container">
+                    <div class="content" hidden="true">
+                        <h1 class ="show" id="heading" hidden="true">Over time it can turn into profit and make your citizens happy</h1>
+                    </div>
+                </div>
+            </body>
+        </html>
