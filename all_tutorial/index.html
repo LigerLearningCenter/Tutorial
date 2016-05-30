@@ -9,11 +9,24 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     </head>
     <body>
         <!-- Main Code -->
         <h1 class="money" hidden="true">$ 8,782,087,003</h1>
-        <img id="pause" src="img/ICONS/navagation/pause.png" alt="pause" data-selected="false"/>
+        <img id="pause" src="img/ICONS/navagation/auto-play-white-small.png" data-selected="false">
+
+        <script type="text/javascript">
+			$("#pause").click(function() {
+				console.log("click");
+				if ($(this).attr("data-selected") == "false") {
+					$(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
+					$(this).attr("data-selected", "true");					
+				} else {
+					$(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
+					$(this).attr("data-selected", "false");										
+				}
+			}); </script>
         <!-- Page One -->
         <div class="container page-1">
             <div class="content">
@@ -37,6 +50,11 @@
         </div>
         <!-- Page Four -->
         <div id="allArrow" hidden="true">
+
+<!-- Main Code -->
+    <h1 class="money" hidden="true">$ 8,782,087,003</h1>
+
+            <div id="allArrow" hidden="true">
             <img src="img/ICONS/navagation/down-arrow.png" id="arrow1" class="down">
             <img src="img/ICONS/navagation/down-arrow.png" id="arrow2" class="down">
             <img src="img/ICONS/navagation/down-arrow.png" id="arrow3" class="down">
@@ -60,6 +78,8 @@
                 <img src="img/icons/sectors/consumer-service.png" class="icon" id="img3">
                                             <pre class="test"> CONSUMER 
                 SERVICES</pre>
+                <pre class="test"> CONSUMER 
+            SERVICES</pre>
                 <div id ="gradient3" class="gradient"></div>
             </div>
             <div class="menubar">

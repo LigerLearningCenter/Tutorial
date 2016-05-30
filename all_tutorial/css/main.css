@@ -64,26 +64,36 @@ body {
     position: absolute;
     top: 580px;
     left: 50px;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
 }
 #arrow2 {
     position: absolute;
     top: 580px;
     left: 270px;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
 }
 #arrow3 {
     position: absolute;
     top: 580px;
     right: 50px;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
 }
 #arrow4 {
     position: absolute;
     top: 580px;
     right: 500px;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
 }
 #arrow5 {
     position: absolute;
     top: 580px;
     right: 270px;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
 }
 
 /*Menu Bars*/
@@ -195,7 +205,8 @@ img#arrow-down {
     bottom: 0;
     right: 0;
     animation-name: bounce;
-    animation-duration: 2.5s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 button#click-here {
     background-color: Transparent;
@@ -260,8 +271,8 @@ body {
     height: 5%;
     background-color: blue;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0vw;
+    left: 0vw;
 }
 #dateCollection {
     width: 13%;
