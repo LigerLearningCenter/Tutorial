@@ -103,13 +103,16 @@ $(document).ready(function() {
         $( "#page-13Next" ).show();
         $( "#page-12Next" ).hide();
 
+
+
     });
      //Will view 14
      $( "#page-13Next" ).bind( "click", function(event){
         $( ".show7" ).hide();
-        $( ".show8" ).show();
+        $( ".show8" ).show8();
         $( "#page-14Next" ).show();
         $( "#page-13Next" ).hide();
+
 
     });
      //Will view 15
