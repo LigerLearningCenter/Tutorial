@@ -104,6 +104,22 @@ $(document).ready(function() {
         $( "#page-12Next" ).hide();
 
     });
+     //Will view 14
+     $( "#page-13Next" ).bind( "click", function(event){
+        $( ".show7" ).hide();
+        $( ".show8" ).show();
+        $( "#page-14Next" ).show();
+        $( "#page-13Next" ).hide();
+
+    });
+     //Will view 15
+     $( "#page-14Next" ).bind( "click", function(event){
+        $( ".show8" ).hide();
+        $( ".show9" ).show();
+        $( "#page-15Next" ).show();
+        $( "#page-14Next" ).hide();
+
+    });
 });
 
 
