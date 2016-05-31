@@ -31,6 +31,7 @@ $(document).ready(function() {
         $(".down").show();
         $("#page-4Next").hide();
         $("#page-5Next").show();
+        $( "#arrow" ).hide();
 
 
     });
@@ -42,6 +43,66 @@ $(document).ready(function() {
         $(".socialMood").show();
         $( "#topBarsDateCollection" ).show();
         $("#page-6Next").show();
+    });
+    //Will view seventh
+    $( "#page-6Next" ).bind( "click", function(event){
+        $( "#socailmoodHappy5" ).show();
+        $( "#socailmoodSad1" ).hide();
+        $( "#arrow" ).show();
+        $( ".grid" ).show();
+        $( ".show1" ).show();
+        $("#page-6Next").hide();
+        $("#page-7Next").show();
+        $( ".show" ).hide();
+    });
+    // Will view eighth
+    $( "#page-7Next" ).bind( "click", function(event){
+        $( ".show2" ).show();
+        $( ".show1" ).hide();
+        $( "#page-8Next" ).show();
+        $( "#page-7Next" ).hide();
+        $( "#arrow" ).hide();
+
+    });
+    //Will view nine
+     $( "#page-8Next" ).bind( "click", function(event){
+        $( ".show2" ).hide();
+        $( ".show3" ).show();
+        $( "#page-9Next" ).show();
+        $( "#page-8Next" ).hide();
+
+    });
+     //Will view 10
+     $( "#page-9Next" ).bind( "click", function(event){
+        $( ".show3" ).hide();
+        $( ".show4" ).show();
+        $( "#page-10Next" ).show();
+        $( "#page-9Next" ).hide();
+
+    });
+     //Will view 11
+     $( "#page-10Next" ).bind( "click", function(event){
+        $( ".show4" ).hide();
+        $( ".show5" ).show();
+        $( "#page-11Next" ).show();
+        $( "#page-10Next" ).hide();
+
+    });
+      //Will view 12
+     $( "#page-11Next" ).bind( "click", function(event){
+        $( ".show5" ).hide();
+        $( ".show6" ).show();
+        $( "#page-12Next" ).show();
+        $( "#page-11Next" ).hide();
+
+    });
+      //Will view 13
+     $( "#page-12Next" ).bind( "click", function(event){
+        $( ".show6" ).hide();
+        $( ".show7" ).show();
+        $( "#page-13Next" ).show();
+        $( "#page-12Next" ).hide();
+
     });
 });
 
