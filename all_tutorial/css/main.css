@@ -24,7 +24,7 @@ html {
 body {
     background-color: #eaedf2;
     color: #4c498b;
-
+    font-family: 'roboto';
 }
 .money {
     position: absolute;
@@ -123,16 +123,17 @@ header {
     margin-left: 60px;
 }
 .label1 {
-    text-indent: -18px;
+    text-indent: -25px;
     left: 10px;
     font-weight:
 }
 pre.test {
+    font-family: 'roboto';
     font-size: 13pt;
     position: relative;
+    tab:1;
     top: -55%;
-    margin-left: 17px;
-    text-indent: 40px;
+    margin-left: 60px;
 }
 div.menubar {
     position: relative;
@@ -243,9 +244,7 @@ button#click-here {
     animation-name: zoomIn;
     animation-duration: 2.5s;
 }
-body {
-    background-color: #EAEDF2;
-}
+
 #tutorialOfPage3 {
     position: absolute;
     top: 35%;
