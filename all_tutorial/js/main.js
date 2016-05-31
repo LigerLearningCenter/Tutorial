@@ -129,10 +129,10 @@ $(document).ready(function() {
 $("#pause").click(function() {
     console.log("click");
     if ($(this).attr("data-selected") == "false") {
-        $(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
+        $(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
         $(this).attr("data-selected", "true");
     } else {
-        $(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
+        $(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
         $(this).attr("data-selected", "false");
     }
 });
