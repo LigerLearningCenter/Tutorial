@@ -37,6 +37,7 @@ $(document).ready(function() {
     });
     //Will view sixth
     $("#page-5Next").bind("click", function(event) {
+        $( ".back-color" ).show();
         $(".business").hide();
         $(".show").show();
         $(".down").hide();
@@ -49,7 +50,7 @@ $(document).ready(function() {
         $( "#socailmoodHappy5" ).show();
         $( "#socailmoodSad1" ).hide();
         $( "#arrow" ).show();
-        $( ".grid" ).show();
+        $( ".horizontal-grid" ).show();
         $( ".show1" ).show();
         $("#page-6Next").hide();
         $("#page-7Next").show();
@@ -109,7 +110,7 @@ $(document).ready(function() {
      //Will view 14
      $( "#page-13Next" ).bind( "click", function(event){
         $( ".show7" ).hide();
-        $( ".show8" ).show8();
+        $( ".show8" ).show();
         $( "#page-14Next" ).show();
         $( "#page-13Next" ).hide();
 
