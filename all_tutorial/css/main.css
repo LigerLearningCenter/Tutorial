@@ -100,6 +100,16 @@ body {
     animation-name: bounce;
     animation-iteration-count: infinite;
 }
+#arrow-up{
+    width: 2.5%;
+    height: 5.5%;
+    position: absolute;
+    left: 470px;
+    top: 228px;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
 /*Menu Bars*/
 header {
@@ -177,9 +187,21 @@ div#gradient7 {
     background: linear-gradient(90deg, #50EFBB, white);
 }
 
+#gradient8{
+width: 22px;
+height: 15px;
+background:#E55C4C;
+position: absolute;
+top: 178px;
+left: 393px;
+
+}
+
 /*First Page*/
 h1#heading {
     font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-top: 10px;
     line-height: 1.1;
     font-weight: 500;
     font-size: 3.75vw;
@@ -403,4 +425,11 @@ hr {
     position: absolute;
     left: 475px;
     top: 515px;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+h1.show-all{
+    position: absolute;
+    top: 48px;
 }
