@@ -2,7 +2,7 @@
 /*Overall Code*/
 .back-color{
     width: 100vw;
-    height: 15vw;
+    height: 13.9vw;
     position: absolute;
     top: 0vh;
     left: 0vw;
@@ -51,7 +51,7 @@ body {
 .money {
     position: absolute;
     left: -30px;
-    top: 3vh;
+    top: 1.4vw;
     border-radius: 90px;
     background: white;
     padding-left: 60px;
@@ -169,7 +169,7 @@ pre.test {
 }
 div.menubar {
     position: relative;
-    top: 97px;
+    top: 6.8vw;
     background-color: white;
     margin: .7px;
     float: left;
@@ -209,15 +209,7 @@ div#gradient7 {
     background: linear-gradient(90deg, #50EFBB, white);
 }
 
-#gradient8{
-width: 22px;
-height: 15px;
-background:#E55C4C;
-position: absolute;
-top: 178px;
-left: 393px;
 
-}
 
 /*First Page*/
 h1#heading {
@@ -372,70 +364,70 @@ button#click-here {
     width: 4vw;
     height: 4vw;
     position: absolute;
-    top: 5.7%;
+    top: 2.8vw;
     right: 34%;
 }
 #socailmoodHappy2 {
     width: 4vw;
     height: 4vw;
     position: absolute;
-    top: 5.7%;
+    top: 2.8vw;
     right: 29%;
 }
 #socailmoodHappy3 {
     width: 4vw;
     height: 4vw;
     position: absolute;
-    top: 5.7%;
+    top: 2.8vw;
     right: 24%;
 }
 #socailmoodHappy4 {
     width: 4vw;
     height: 4vw;
     position: absolute;
-    top: 5.7%;
+    top: 2.8vw;
     right: 19%;
 }
 #socailmoodHappy5{
     width: 4vw;
     height: 4vw;
     position: absolute;
-    top: 5.7%;
+    top: 2.8vw;
     right: 14%;
 }
 #socailmoodSad1 {
     width: 4vw;
     height: 4vw;
     position: absolute;
-    top: 5.7%;
+    top: 2.8vw;
     right: 34%;
 }
 #socailmoodSad2 {
     width: 4vw;
     height: 4vw;
     position: absolute;
-    top: 5.7%;
+    top: 2.8vw;
     right: 29%;
 }
 #socailmoodSad3 {
     width: 4vw;
     height: 4vw;
     position: absolute;
-    top: 5.7%;
+    top: 2.8vw;
     right: 24%;
 }
 #socailmoodSad4 {
     width: 4vw;
     height: 4vw;
     position: absolute;
-    top: 5.7%;
+    top: 2.8vw;
     right: 19%;
 }
 #socailmoodSad5{
     width: 4vw;
     height: 4vw;
     position: absolute;
-    top: 5.7%;
+    top: 2.8vw;
     right: 14%;
 }
 #commentOnPage6 {
