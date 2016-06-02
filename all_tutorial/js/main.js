@@ -37,6 +37,7 @@ $(document).ready(function() {
     });
     //Will view sixth
     $("#page-5Next").bind("click", function(event) {
+        $( ".back-color" ).show();
         $(".business").hide();
         $(".show").show();
         $(".down").hide();
@@ -49,7 +50,7 @@ $(document).ready(function() {
         $( "#socailmoodHappy5" ).show();
         $( "#socailmoodSad1" ).hide();
         $( "#arrow" ).show();
-        $( ".grid" ).show();
+        $( ".horizontal-grid" ).show();
         $( ".show1" ).show();
         $("#page-6Next").hide();
         $("#page-7Next").show();
@@ -133,10 +134,10 @@ $(document).ready(function() {
 $("#pause").click(function() {
     console.log("click");
     if ($(this).attr("data-selected") == "false") {
-        $(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
+        $(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
         $(this).attr("data-selected", "true");
     } else {
-        $(this).attr("src", "img/ICONS/navagation/pause-white-small.png");
+        $(this).attr("src", "img/ICONS/navagation/auto-play-white-small.png");
         $(this).attr("data-selected", "false");
     }
 });
