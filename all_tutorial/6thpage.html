@@ -5,7 +5,17 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="js/main.js"></script> -->
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $( "#socailmoodHappy1" ).show();
+      $( "#socailmoodHappy2" ).show();
+      $( "#socailmoodHappy3" ).show();
+      $( "#socailmoodHappy4" ).show();
+      $( "#socailmoodSad5" ).show();
+    })
+  </script>
 </head>
 <body>
 
@@ -19,13 +29,18 @@
 	<div id="leftArrow"></div>
 	<div id="rightArrow"></div>
 </div>
-<!-- socailmood -->
-	<img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy1">
-	<img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy2">
-	<img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy3">
-	<img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy4">
-	<img src="img/ICONS/OTHER/socialmoodSad.png" id="socailmoodSad1">
-
+<div class="socialMood">
+                <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy1" hidden="true">
+                <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy2" hidden="true">
+                <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy3" hidden="true">
+                <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy4" hidden="true">
+                <img src="img/ICONS/OTHER/socialmoodHappy.png" id="socailmoodHappy5" hidden="true">
+                <img src="img/ICONS/OTHER/socialmoodSad.png" id="socailmoodSad1" hidden="true">
+                <img src="img/ICONS/OTHER/socialmoodSad.png" id="socailmoodSad2" hidden="true">
+                <img src="img/ICONS/OTHER/socialmoodSad.png" id="socailmoodSad3" hidden="true">
+                <img src="img/ICONS/OTHER/socialmoodSad.png" id="socailmoodSad4" hidden="true">
+                <img src="img/ICONS/OTHER/socialmoodSad.png" id="socailmoodSad5" hidden="true">
+            </div>
 <header>
   <div class="menubar">
     <img src="img/icons/sectors/industry.png" class="icon" id="img1">

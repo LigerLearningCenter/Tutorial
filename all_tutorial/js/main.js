@@ -37,18 +37,26 @@ $(document).ready(function() {
     });
     //Will view sixth
     $("#page-5Next").bind("click", function(event) {
+        $( "#socailmoodHappy1" ).show();
+        $( "#socailmoodHappy2" ).show();
+        $( "#socailmoodHappy3" ).show();
+        $( "#socailmoodHappy4" ).show();
+        $( "#socailmoodSad5" ).show();
         $( ".back-color" ).show();
         $(".business").hide();
         $(".show").show();
         $(".down").hide();
-        $(".socialMood").show();
         $( "#topBarsDateCollection" ).show();
         $("#page-6Next").show();
     });
     //Will view seventh
     $( "#page-6Next" ).bind( "click", function(event){
+        $( "#socailmoodHappy1" ).show();
+        $( "#socailmoodHappy2" ).show();
+        $( "#socailmoodHappy3" ).show();
+        $( "#socailmoodHappy4" ).show();
         $( "#socailmoodHappy5" ).show();
-        $( "#socailmoodSad1" ).hide();
+        $( "#socailmoodSad5" ).hide();
         $( "#arrow" ).show();
         $( ".horizontal-grid" ).show();
         $( ".show1" ).show();
