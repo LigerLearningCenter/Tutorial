@@ -101,6 +101,7 @@ $(document).ready(function() {
      $( "#page-11Next" ).bind( "click", function(event){
         $( ".show5" ).hide();
         $( ".show6" ).show();
+        $( "#gradient8").show();
         $( "#page-12Next" ).show();
         $( "#page-11Next" ).hide();
 
@@ -122,7 +123,6 @@ $(document).ready(function() {
         $( "#page-14Next" ).show();
         $( "#page-13Next" ).hide();
 
-
     });
      //Will view 15
      $( "#page-14Next" ).bind( "click", function(event){
@@ -130,8 +130,9 @@ $(document).ready(function() {
         $( ".show9" ).show();
         $( "#page-15Next" ).show();
         $( "#page-14Next" ).hide();
-
+        $("#arrow-up").show();
     });
+
 });
 
 
