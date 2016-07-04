@@ -1,0 +1,40 @@
+#industry{
+  height: 80px;
+  width: 200px;
+}
+
+#agriculture{
+  height: 80px;
+  width: 200px;
+}
+
+#consumerServices{
+  height: 80px;
+  width: 200px;
+  position: absolute;
+  top: 8px;
+}
+
+#infrastracture{
+  height: 80px;
+  width: 200px;
+}
+
+#education{
+  height: 80px;
+  width: 200px;
+}
+
+#tourism{
+  height: 80px;
+  width: 200px;
+}
+
+#ecology{
+  height: 80px;
+  width: 200px;
+}
+.allTab{
+  background-color: green;
+
+}
